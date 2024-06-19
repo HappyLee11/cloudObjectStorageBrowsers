@@ -1,0 +1,9 @@
+C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/CMakeFiles/cloudObjectStorageBrowsers.dir
+C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/CMakeFiles/list_install_components.dir
+C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/CMakeFiles/install.dir
+C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/CMakeFiles/install/local.dir
+C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/CMakeFiles/install/strip.dir
+C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/CMakeFiles/cloudObjectStorageBrowsers_autogen_timestamp_deps.dir
+C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/CMakeFiles/cloudObjectStorageBrowsers_autogen.dir

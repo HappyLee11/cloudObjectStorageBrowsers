@@ -1,0 +1,19 @@
+# ninja log v5
+1	447	7404865823793144	cloudObjectStorageBrowsers_autogen/mocs_compilation.cpp	9fe9b05df310a22d
+460	1555	7404865835416287	CMakeFiles/cloudObjectStorageBrowsers.dir/logindialog.cpp.obj	f4c135aca21e794c
+3	83	7404869716486784	C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/CMakeFiles/cmake.verify_globs	d1f8e0dd52246238
+1	447	7404865823793144	cloudObjectStorageBrowsers_autogen/timestamp	9fe9b05df310a22d
+1	447	7404865823793144	C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/timestamp	9fe9b05df310a22d
+1	447	7404865823793144	C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/mocs_compilation.cpp	9fe9b05df310a22d
+453	1515	7404865835056286	CMakeFiles/cloudObjectStorageBrowsers.dir/main.cpp.obj	34a6dedccec4a58d
+447	1430	7404865834213361	CMakeFiles/cloudObjectStorageBrowsers.dir/cloudObjectStorageBrowsers_autogen/mocs_compilation.cpp.obj	5f5f401b0183e6a3
+1555	1682	7404865836703237	cloudObjectStorageBrowsers.exe	c38bdd44d9db86ba
+83	539	7404869721044562	build.ninja	cbaffea5edd95934
+2	91	0	C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/CMakeFiles/cmake.verify_globs	d1f8e0dd52246238
+10	180	7404869724015490	cloudObjectStorageBrowsers_autogen/timestamp	9fe9b05df310a22d
+10	180	7404869724015490	cloudObjectStorageBrowsers_autogen/mocs_compilation.cpp	9fe9b05df310a22d
+10	180	7404869724015490	C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/timestamp	9fe9b05df310a22d
+10	180	7404869724015490	C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/mocs_compilation.cpp	9fe9b05df310a22d
+186	1231	7404869734531012	CMakeFiles/cloudObjectStorageBrowsers.dir/logindialog.cpp.obj	f4c135aca21e794c
+1232	1338	7404869735573907	cloudObjectStorageBrowsers.exe	c38bdd44d9db86ba
+2	83	0	C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/CMakeFiles/cmake.verify_globs	d1f8e0dd52246238
