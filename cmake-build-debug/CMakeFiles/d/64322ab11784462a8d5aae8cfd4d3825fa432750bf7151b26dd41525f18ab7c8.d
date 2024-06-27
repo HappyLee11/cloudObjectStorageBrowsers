@@ -4,10 +4,28 @@ cloudObjectStorageBrowsers_autogen/timestamp: \
   CMakeFiles/3.27.8/CMakeRCCompiler.cmake \
   CMakeFiles/3.27.8/CMakeSystem.cmake \
   cloudObjectStorageBrowsers_autogen/moc_predefs.h \
-  C:/CppProjects/cloudObjectStorageBrowsers/logindialog.cpp \
-  C:/CppProjects/cloudObjectStorageBrowsers/logindialog.h \
-  C:/CppProjects/cloudObjectStorageBrowsers/logindialog.ui \
   C:/CppProjects/cloudObjectStorageBrowsers/main.cpp \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiLogin/logindialog.cpp \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiLogin/logindialog.h \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiLogin/logindialog.ui \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/bucketswidget.cpp \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/bucketswidget.h \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/bucketswidget.ui \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/objectswidget.cpp \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/objectswidget.h \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/objectswidget.ui \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/toolbarwidget.cpp \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/toolbarwidget.h \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/toolbarwidget.ui \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/uimain.cpp \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/uimain.h \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/uimain.ui \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uicom/breadwidget.cpp \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uicom/breadwidget.h \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uicom/breadwidget.ui \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uicom/pagewidget.cpp \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uicom/pagewidget.h \
+  C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uicom/pagewidget.ui \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/cmake/win/x64/bin/cmake.exe \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
@@ -184,10 +202,10 @@ cloudObjectStorageBrowsers_autogen/timestamp: \
   C:/Qt/6.7.1/mingw_64/include/QtGui/qtransform.h \
   C:/Qt/6.7.1/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.7.1/mingw_64/include/QtGui/qwindowdefs_win.h \
-  C:/Qt/6.7.1/mingw_64/include/QtWidgets/QMainWindow \
-  C:/Qt/6.7.1/mingw_64/include/QtWidgets/qmainwindow.h \
+  C:/Qt/6.7.1/mingw_64/include/QtWidgets/QDialog \
+  C:/Qt/6.7.1/mingw_64/include/QtWidgets/QWidget \
+  C:/Qt/6.7.1/mingw_64/include/QtWidgets/qdialog.h \
   C:/Qt/6.7.1/mingw_64/include/QtWidgets/qsizepolicy.h \
-  C:/Qt/6.7.1/mingw_64/include/QtWidgets/qtabwidget.h \
   C:/Qt/6.7.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.7.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   C:/Qt/6.7.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \

@@ -42,13 +42,33 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/CppProjects/cloudObjectStorageBrowsers/*.cpp")
 set(OLD_GLOB
   "C:/CppProjects/cloudObjectStorageBrowsers/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/cloudObjectStorageBrowsers_autogen/BKWQZ3LQZU/moc_bucketswidget.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/cloudObjectStorageBrowsers_autogen/BKWQZ3LQZU/moc_objectswidget.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/cloudObjectStorageBrowsers_autogen/BKWQZ3LQZU/moc_toolbarwidget.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/cloudObjectStorageBrowsers_autogen/BKWQZ3LQZU/moc_uimain.cpp"
   "C:/CppProjects/cloudObjectStorageBrowsers/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/cloudObjectStorageBrowsers_autogen/EWIEGA46WW/moc_logindialog.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/cloudObjectStorageBrowsers_autogen/RMXR7OZ5VL/moc_logindialog.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/cloudObjectStorageBrowsers_autogen/UXOHPTHO2N/moc_breadwidget.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/cloudObjectStorageBrowsers_autogen/UXOHPTHO2N/moc_pagewidget.cpp"
   "C:/CppProjects/cloudObjectStorageBrowsers/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/cloudObjectStorageBrowsers_autogen/mocs_compilation.cpp"
   "C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/BKWQZ3LQZU/moc_bucketswidget.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/BKWQZ3LQZU/moc_objectswidget.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/BKWQZ3LQZU/moc_toolbarwidget.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/BKWQZ3LQZU/moc_uimain.cpp"
   "C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/EWIEGA46WW/moc_logindialog.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/RMXR7OZ5VL/moc_logindialog.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/UXOHPTHO2N/moc_breadwidget.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/UXOHPTHO2N/moc_pagewidget.cpp"
   "C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/mocs_compilation.cpp"
-  "C:/CppProjects/cloudObjectStorageBrowsers/logindialog.cpp"
   "C:/CppProjects/cloudObjectStorageBrowsers/main.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiLogin/logindialog.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/bucketswidget.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/objectswidget.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/toolbarwidget.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/uimain.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uicom/breadwidget.cpp"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uicom/pagewidget.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -67,11 +87,29 @@ endif()
 # _directory_contents at C:/Qt/6.7.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/CppProjects/cloudObjectStorageBrowsers/*.h")
 set(OLD_GLOB
+  "C:/CppProjects/cloudObjectStorageBrowsers/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/cloudObjectStorageBrowsers_autogen/include/ui_breadwidget.h"
+  "C:/CppProjects/cloudObjectStorageBrowsers/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/cloudObjectStorageBrowsers_autogen/include/ui_bucketswidget.h"
   "C:/CppProjects/cloudObjectStorageBrowsers/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/cloudObjectStorageBrowsers_autogen/include/ui_logindialog.h"
+  "C:/CppProjects/cloudObjectStorageBrowsers/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/cloudObjectStorageBrowsers_autogen/include/ui_objectswidget.h"
+  "C:/CppProjects/cloudObjectStorageBrowsers/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/cloudObjectStorageBrowsers_autogen/include/ui_pagewidget.h"
+  "C:/CppProjects/cloudObjectStorageBrowsers/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/cloudObjectStorageBrowsers_autogen/include/ui_toolbarwidget.h"
+  "C:/CppProjects/cloudObjectStorageBrowsers/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/cloudObjectStorageBrowsers_autogen/include/ui_uimain.h"
   "C:/CppProjects/cloudObjectStorageBrowsers/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/cloudObjectStorageBrowsers_autogen/moc_predefs.h"
+  "C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/include/ui_breadwidget.h"
+  "C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/include/ui_bucketswidget.h"
   "C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/include/ui_logindialog.h"
+  "C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/include/ui_objectswidget.h"
+  "C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/include/ui_pagewidget.h"
+  "C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/include/ui_toolbarwidget.h"
+  "C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/include/ui_uimain.h"
   "C:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/moc_predefs.h"
-  "C:/CppProjects/cloudObjectStorageBrowsers/logindialog.h"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiLogin/logindialog.h"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/bucketswidget.h"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/objectswidget.h"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/toolbarwidget.h"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/uimain.h"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uicom/breadwidget.h"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uicom/pagewidget.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -171,7 +209,13 @@ endif()
 # _directory_contents at C:/Qt/6.7.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/CppProjects/cloudObjectStorageBrowsers/*.ui")
 set(OLD_GLOB
-  "C:/CppProjects/cloudObjectStorageBrowsers/logindialog.ui"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiLogin/logindialog.ui"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/bucketswidget.ui"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/objectswidget.ui"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/toolbarwidget.ui"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/uimain.ui"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uicom/breadwidget.ui"
+  "C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uicom/pagewidget.ui"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

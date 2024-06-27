@@ -16,9 +16,9 @@ set(TS_FILES cloudObjectStorageBrowsers_zh_CN.ts)
 
 set(PROJECT_SOURCES
         main.cpp
-        logindialog.cpp
-        logindialog.h
-        logindialog.ui
+        src/fend/uiLogin/logindialog.cpp
+        src/fend/uiLogin/logindialog.h
+        src/fend/uiLogin/logindialog.ui
         ${TS_FILES}
 )
 
@@ -26,6 +26,17 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(cloudObjectStorageBrowsers
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        src/fend/uiMain/uimain.h src/fend/uiMain/uimain.cpp
+        src/fend/uiMain/toolbarwidget.h src/fend/uiMain/toolbarwidget.cpp src/fend/uiMain/toolbarwidget.ui
+        src/fend/uiMain/bucketswidget.h src/fend/uiMain/bucketswidget.cpp src/fend/uiMain/bucketswidget.ui
+        src/fend/uicom/breadwidget.h src/fend/uicom/breadwidget.cpp src/fend/uicom/breadwidget.ui
+        src/fend/uiMain/objectswidget.h src/fend/uiMain/objectswidget.cpp src/fend/uiMain/objectswidget.ui
+        src/fend/uicom/pagewidget.h src/fend/uicom/pagewidget.cpp src/fend/uicom/pagewidget.ui
+        src/fend/uiMain/uimain.h src/fend/uiMain/uimain.cpp src/fend/uiMain/uimain.ui
+        src/fend/uiMain/bucketswidget.h src/fend/uiMain/bucketswidget.cpp src/fend/uiMain/bucketswidget.ui
+        src/fend/uiMain/objectswidget.h src/fend/uiMain/objectswidget.cpp src/fend/uiMain/objectswidget.ui
+        src/fend/uiMain/toolbarwidget.h src/fend/uiMain/toolbarwidget.cpp src/fend/uiMain/toolbarwidget.ui
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET cloudObjectStorageBrowsers APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
@@ -70,6 +81,10 @@ install(TARGETS cloudObjectStorageBrowsers
     BUNDLE DESTINATION .
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+)
+
+INCLUDE_DIRECTORIES(
+        ${PROJECT_SOURCE_DIR}
 )
 
 if(QT_VERSION_MAJOR EQUAL 6)

@@ -53,7 +53,7 @@ build CMakeFiles/cloudObjectStorageBrowsers.dir/cloudObjectStorageBrowsers_autog
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\cloudObjectStorageBrowsers.dir\cloudObjectStorageBrowsers_autogen\mocs_compilation.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IC:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/include -isystem C:/Qt/6.7.1/mingw_64/include/QtCore -isystem C:/Qt/6.7.1/mingw_64/include -isystem C:/Qt/6.7.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.1/mingw_64/include/QtGui
+  INCLUDES = -IC:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/include -IC:/CppProjects/cloudObjectStorageBrowsers -isystem C:/Qt/6.7.1/mingw_64/include/QtCore -isystem C:/Qt/6.7.1/mingw_64/include -isystem C:/Qt/6.7.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.1/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\cloudObjectStorageBrowsers.dir
   OBJECT_FILE_DIR = CMakeFiles\cloudObjectStorageBrowsers.dir\cloudObjectStorageBrowsers_autogen
 
@@ -61,17 +61,65 @@ build CMakeFiles/cloudObjectStorageBrowsers.dir/main.cpp.obj: CXX_COMPILER__clou
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\cloudObjectStorageBrowsers.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IC:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/include -isystem C:/Qt/6.7.1/mingw_64/include/QtCore -isystem C:/Qt/6.7.1/mingw_64/include -isystem C:/Qt/6.7.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.1/mingw_64/include/QtGui
+  INCLUDES = -IC:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/include -IC:/CppProjects/cloudObjectStorageBrowsers -isystem C:/Qt/6.7.1/mingw_64/include/QtCore -isystem C:/Qt/6.7.1/mingw_64/include -isystem C:/Qt/6.7.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.1/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\cloudObjectStorageBrowsers.dir
   OBJECT_FILE_DIR = CMakeFiles\cloudObjectStorageBrowsers.dir
 
-build CMakeFiles/cloudObjectStorageBrowsers.dir/logindialog.cpp.obj: CXX_COMPILER__cloudObjectStorageBrowsers_unscanned_Debug C$:/CppProjects/cloudObjectStorageBrowsers/logindialog.cpp || cmake_object_order_depends_target_cloudObjectStorageBrowsers
+build CMakeFiles/cloudObjectStorageBrowsers.dir/src/fend/uiLogin/logindialog.cpp.obj: CXX_COMPILER__cloudObjectStorageBrowsers_unscanned_Debug C$:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiLogin/logindialog.cpp || cmake_object_order_depends_target_cloudObjectStorageBrowsers
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\cloudObjectStorageBrowsers.dir\logindialog.cpp.obj.d
+  DEP_FILE = CMakeFiles\cloudObjectStorageBrowsers.dir\src\fend\uiLogin\logindialog.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IC:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/include -isystem C:/Qt/6.7.1/mingw_64/include/QtCore -isystem C:/Qt/6.7.1/mingw_64/include -isystem C:/Qt/6.7.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.1/mingw_64/include/QtGui
+  INCLUDES = -IC:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/include -IC:/CppProjects/cloudObjectStorageBrowsers -isystem C:/Qt/6.7.1/mingw_64/include/QtCore -isystem C:/Qt/6.7.1/mingw_64/include -isystem C:/Qt/6.7.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.1/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\cloudObjectStorageBrowsers.dir
-  OBJECT_FILE_DIR = CMakeFiles\cloudObjectStorageBrowsers.dir
+  OBJECT_FILE_DIR = CMakeFiles\cloudObjectStorageBrowsers.dir\src\fend\uiLogin
+
+build CMakeFiles/cloudObjectStorageBrowsers.dir/src/fend/uiMain/uimain.cpp.obj: CXX_COMPILER__cloudObjectStorageBrowsers_unscanned_Debug C$:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/uimain.cpp || cmake_object_order_depends_target_cloudObjectStorageBrowsers
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\cloudObjectStorageBrowsers.dir\src\fend\uiMain\uimain.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/include -IC:/CppProjects/cloudObjectStorageBrowsers -isystem C:/Qt/6.7.1/mingw_64/include/QtCore -isystem C:/Qt/6.7.1/mingw_64/include -isystem C:/Qt/6.7.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\cloudObjectStorageBrowsers.dir
+  OBJECT_FILE_DIR = CMakeFiles\cloudObjectStorageBrowsers.dir\src\fend\uiMain
+
+build CMakeFiles/cloudObjectStorageBrowsers.dir/src/fend/uiMain/toolbarwidget.cpp.obj: CXX_COMPILER__cloudObjectStorageBrowsers_unscanned_Debug C$:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/toolbarwidget.cpp || cmake_object_order_depends_target_cloudObjectStorageBrowsers
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\cloudObjectStorageBrowsers.dir\src\fend\uiMain\toolbarwidget.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/include -IC:/CppProjects/cloudObjectStorageBrowsers -isystem C:/Qt/6.7.1/mingw_64/include/QtCore -isystem C:/Qt/6.7.1/mingw_64/include -isystem C:/Qt/6.7.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\cloudObjectStorageBrowsers.dir
+  OBJECT_FILE_DIR = CMakeFiles\cloudObjectStorageBrowsers.dir\src\fend\uiMain
+
+build CMakeFiles/cloudObjectStorageBrowsers.dir/src/fend/uiMain/bucketswidget.cpp.obj: CXX_COMPILER__cloudObjectStorageBrowsers_unscanned_Debug C$:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/bucketswidget.cpp || cmake_object_order_depends_target_cloudObjectStorageBrowsers
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\cloudObjectStorageBrowsers.dir\src\fend\uiMain\bucketswidget.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/include -IC:/CppProjects/cloudObjectStorageBrowsers -isystem C:/Qt/6.7.1/mingw_64/include/QtCore -isystem C:/Qt/6.7.1/mingw_64/include -isystem C:/Qt/6.7.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\cloudObjectStorageBrowsers.dir
+  OBJECT_FILE_DIR = CMakeFiles\cloudObjectStorageBrowsers.dir\src\fend\uiMain
+
+build CMakeFiles/cloudObjectStorageBrowsers.dir/src/fend/uicom/breadwidget.cpp.obj: CXX_COMPILER__cloudObjectStorageBrowsers_unscanned_Debug C$:/CppProjects/cloudObjectStorageBrowsers/src/fend/uicom/breadwidget.cpp || cmake_object_order_depends_target_cloudObjectStorageBrowsers
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\cloudObjectStorageBrowsers.dir\src\fend\uicom\breadwidget.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/include -IC:/CppProjects/cloudObjectStorageBrowsers -isystem C:/Qt/6.7.1/mingw_64/include/QtCore -isystem C:/Qt/6.7.1/mingw_64/include -isystem C:/Qt/6.7.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\cloudObjectStorageBrowsers.dir
+  OBJECT_FILE_DIR = CMakeFiles\cloudObjectStorageBrowsers.dir\src\fend\uicom
+
+build CMakeFiles/cloudObjectStorageBrowsers.dir/src/fend/uiMain/objectswidget.cpp.obj: CXX_COMPILER__cloudObjectStorageBrowsers_unscanned_Debug C$:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/objectswidget.cpp || cmake_object_order_depends_target_cloudObjectStorageBrowsers
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\cloudObjectStorageBrowsers.dir\src\fend\uiMain\objectswidget.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/include -IC:/CppProjects/cloudObjectStorageBrowsers -isystem C:/Qt/6.7.1/mingw_64/include/QtCore -isystem C:/Qt/6.7.1/mingw_64/include -isystem C:/Qt/6.7.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\cloudObjectStorageBrowsers.dir
+  OBJECT_FILE_DIR = CMakeFiles\cloudObjectStorageBrowsers.dir\src\fend\uiMain
+
+build CMakeFiles/cloudObjectStorageBrowsers.dir/src/fend/uicom/pagewidget.cpp.obj: CXX_COMPILER__cloudObjectStorageBrowsers_unscanned_Debug C$:/CppProjects/cloudObjectStorageBrowsers/src/fend/uicom/pagewidget.cpp || cmake_object_order_depends_target_cloudObjectStorageBrowsers
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\cloudObjectStorageBrowsers.dir\src\fend\uicom\pagewidget.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/CppProjects/cloudObjectStorageBrowsers/cmake-build-debug/cloudObjectStorageBrowsers_autogen/include -IC:/CppProjects/cloudObjectStorageBrowsers -isystem C:/Qt/6.7.1/mingw_64/include/QtCore -isystem C:/Qt/6.7.1/mingw_64/include -isystem C:/Qt/6.7.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\cloudObjectStorageBrowsers.dir
+  OBJECT_FILE_DIR = CMakeFiles\cloudObjectStorageBrowsers.dir\src\fend\uicom
 
 
 # =============================================================================
@@ -81,7 +129,7 @@ build CMakeFiles/cloudObjectStorageBrowsers.dir/logindialog.cpp.obj: CXX_COMPILE
 #############################################
 # Link the executable cloudObjectStorageBrowsers.exe
 
-build cloudObjectStorageBrowsers.exe: CXX_EXECUTABLE_LINKER__cloudObjectStorageBrowsers_Debug CMakeFiles/cloudObjectStorageBrowsers.dir/cloudObjectStorageBrowsers_autogen/mocs_compilation.cpp.obj CMakeFiles/cloudObjectStorageBrowsers.dir/main.cpp.obj CMakeFiles/cloudObjectStorageBrowsers.dir/logindialog.cpp.obj | C$:/Qt/6.7.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.1/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.1/mingw_64/lib/libQt6EntryPoint.a || cloudObjectStorageBrowsers_autogen cloudObjectStorageBrowsers_autogen_timestamp_deps
+build cloudObjectStorageBrowsers.exe: CXX_EXECUTABLE_LINKER__cloudObjectStorageBrowsers_Debug CMakeFiles/cloudObjectStorageBrowsers.dir/cloudObjectStorageBrowsers_autogen/mocs_compilation.cpp.obj CMakeFiles/cloudObjectStorageBrowsers.dir/main.cpp.obj CMakeFiles/cloudObjectStorageBrowsers.dir/src/fend/uiLogin/logindialog.cpp.obj CMakeFiles/cloudObjectStorageBrowsers.dir/src/fend/uiMain/uimain.cpp.obj CMakeFiles/cloudObjectStorageBrowsers.dir/src/fend/uiMain/toolbarwidget.cpp.obj CMakeFiles/cloudObjectStorageBrowsers.dir/src/fend/uiMain/bucketswidget.cpp.obj CMakeFiles/cloudObjectStorageBrowsers.dir/src/fend/uicom/breadwidget.cpp.obj CMakeFiles/cloudObjectStorageBrowsers.dir/src/fend/uiMain/objectswidget.cpp.obj CMakeFiles/cloudObjectStorageBrowsers.dir/src/fend/uicom/pagewidget.cpp.obj | C$:/Qt/6.7.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.1/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.1/mingw_64/lib/libQt6EntryPoint.a || cloudObjectStorageBrowsers_autogen cloudObjectStorageBrowsers_autogen_timestamp_deps
   FLAGS = -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.7.1/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.7.1/mingw_64/lib/libQt6Gui.a  C:/Qt/6.7.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.7.1/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -167,7 +215,7 @@ build cloudObjectStorageBrowsers_autogen_timestamp_deps: phony CMakeFiles/cloudO
 #############################################
 # Utility command for cloudObjectStorageBrowsers_autogen
 
-build cloudObjectStorageBrowsers_autogen: phony CMakeFiles/cloudObjectStorageBrowsers_autogen cloudObjectStorageBrowsers_autogen/include/ui_logindialog.h cloudObjectStorageBrowsers_autogen/timestamp cloudObjectStorageBrowsers_autogen/mocs_compilation.cpp cloudObjectStorageBrowsers_autogen_timestamp_deps
+build cloudObjectStorageBrowsers_autogen: phony CMakeFiles/cloudObjectStorageBrowsers_autogen cloudObjectStorageBrowsers_autogen/include/src/fend/uiLogin/ui_logindialog.h cloudObjectStorageBrowsers_autogen/include/src/fend/uiMain/ui_toolbarwidget.h cloudObjectStorageBrowsers_autogen/include/src/fend/uiMain/ui_bucketswidget.h cloudObjectStorageBrowsers_autogen/include/src/fend/uicom/ui_breadwidget.h cloudObjectStorageBrowsers_autogen/include/src/fend/uiMain/ui_objectswidget.h cloudObjectStorageBrowsers_autogen/include/src/fend/uicom/ui_pagewidget.h cloudObjectStorageBrowsers_autogen/include/src/fend/uiMain/ui_uimain.h cloudObjectStorageBrowsers_autogen/timestamp cloudObjectStorageBrowsers_autogen/mocs_compilation.cpp cloudObjectStorageBrowsers_autogen_timestamp_deps
 
 
 #############################################
@@ -189,7 +237,7 @@ build CMakeFiles/cloudObjectStorageBrowsers_autogen_timestamp_deps | ${cmake_nin
 #############################################
 # Phony custom command for CMakeFiles\cloudObjectStorageBrowsers_autogen
 
-build CMakeFiles/cloudObjectStorageBrowsers_autogen cloudObjectStorageBrowsers_autogen/include/ui_logindialog.h | ${cmake_ninja_workdir}CMakeFiles/cloudObjectStorageBrowsers_autogen ${cmake_ninja_workdir}cloudObjectStorageBrowsers_autogen/include/ui_logindialog.h: phony cloudObjectStorageBrowsers_autogen/timestamp || cloudObjectStorageBrowsers_autogen_timestamp_deps
+build CMakeFiles/cloudObjectStorageBrowsers_autogen cloudObjectStorageBrowsers_autogen/include/src/fend/uiLogin/ui_logindialog.h cloudObjectStorageBrowsers_autogen/include/src/fend/uiMain/ui_toolbarwidget.h cloudObjectStorageBrowsers_autogen/include/src/fend/uiMain/ui_bucketswidget.h cloudObjectStorageBrowsers_autogen/include/src/fend/uicom/ui_breadwidget.h cloudObjectStorageBrowsers_autogen/include/src/fend/uiMain/ui_objectswidget.h cloudObjectStorageBrowsers_autogen/include/src/fend/uicom/ui_pagewidget.h cloudObjectStorageBrowsers_autogen/include/src/fend/uiMain/ui_uimain.h | ${cmake_ninja_workdir}CMakeFiles/cloudObjectStorageBrowsers_autogen ${cmake_ninja_workdir}cloudObjectStorageBrowsers_autogen/include/src/fend/uiLogin/ui_logindialog.h ${cmake_ninja_workdir}cloudObjectStorageBrowsers_autogen/include/src/fend/uiMain/ui_toolbarwidget.h ${cmake_ninja_workdir}cloudObjectStorageBrowsers_autogen/include/src/fend/uiMain/ui_bucketswidget.h ${cmake_ninja_workdir}cloudObjectStorageBrowsers_autogen/include/src/fend/uicom/ui_breadwidget.h ${cmake_ninja_workdir}cloudObjectStorageBrowsers_autogen/include/src/fend/uiMain/ui_objectswidget.h ${cmake_ninja_workdir}cloudObjectStorageBrowsers_autogen/include/src/fend/uicom/ui_pagewidget.h ${cmake_ninja_workdir}cloudObjectStorageBrowsers_autogen/include/src/fend/uiMain/ui_uimain.h: phony cloudObjectStorageBrowsers_autogen/timestamp || cloudObjectStorageBrowsers_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

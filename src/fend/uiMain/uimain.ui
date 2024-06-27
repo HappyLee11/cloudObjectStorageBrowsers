@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>uimain</class>
+ <widget class="QWidget" name="uimain">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>583</width>
+    <height>688</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <item>
+    <widget class="QSplitter" name="splitter">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QWidget" name="">
+      <layout class="QHBoxLayout" name="horizontalLayout" stretch="0">
+       <item>
+        <widget class="bucketswidget" name="widget_5" native="true"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="">
+      <layout class="QVBoxLayout" name="verticalLayout" stretch="1,1,9,1">
+       <item>
+        <widget class="toolbarwidget" name="widgetToolBar" native="true"/>
+       </item>
+       <item>
+        <widget class="BreadWidget" name="widgetBread" native="true"/>
+       </item>
+       <item>
+        <widget class="objectswidget" name="widgetObject" native="true"/>
+       </item>
+       <item>
+        <widget class="PageWidget" name="widgetPage" native="true"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>bucketswidget</class>
+   <extends>QWidget</extends>
+   <header>src/fend/uiMain/bucketswidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>toolbarwidget</class>
+   <extends>QWidget</extends>
+   <header>src/fend/uiMain/toolbarwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>objectswidget</class>
+   <extends>QWidget</extends>
+   <header>src/fend/uiMain/objectswidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>BreadWidget</class>
+   <extends>QWidget</extends>
+   <header>src/fend/uicom/breadwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>PageWidget</class>
+   <extends>QWidget</extends>
+   <header>src/fend/uicom/pagewidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

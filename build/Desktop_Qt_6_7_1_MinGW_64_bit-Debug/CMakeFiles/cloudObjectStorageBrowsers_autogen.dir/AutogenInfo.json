@@ -306,9 +306,45 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/CppProjects/cloudObjectStorageBrowsers/logindialog.h",
+			"C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiLogin/logindialog.h",
 			"MU",
-			"EWIEGA46WW/moc_logindialog.cpp",
+			"RMXR7OZ5VL/moc_logindialog.cpp",
+			null
+		],
+		[
+			"C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/bucketswidget.h",
+			"MU",
+			"BKWQZ3LQZU/moc_bucketswidget.cpp",
+			null
+		],
+		[
+			"C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/objectswidget.h",
+			"MU",
+			"BKWQZ3LQZU/moc_objectswidget.cpp",
+			null
+		],
+		[
+			"C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/toolbarwidget.h",
+			"MU",
+			"BKWQZ3LQZU/moc_toolbarwidget.cpp",
+			null
+		],
+		[
+			"C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/uimain.h",
+			"MU",
+			"BKWQZ3LQZU/moc_uimain.cpp",
+			null
+		],
+		[
+			"C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uicom/breadwidget.h",
+			"MU",
+			"UXOHPTHO2N/moc_breadwidget.cpp",
+			null
+		],
+		[
+			"C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uicom/pagewidget.h",
+			"MU",
+			"UXOHPTHO2N/moc_pagewidget.cpp",
 			null
 		]
 	],
@@ -338,6 +374,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"C:/CppProjects/cloudObjectStorageBrowsers",
 		"C:/Qt/6.7.1/mingw_64/include/QtCore",
 		"C:/Qt/6.7.1/mingw_64/include",
 		"C:/Qt/6.7.1/mingw_64/mkspecs/win32-g++",
@@ -383,12 +420,42 @@
 	"SETTINGS_FILE" : "C:/CppProjects/cloudObjectStorageBrowsers/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/cloudObjectStorageBrowsers_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/CppProjects/cloudObjectStorageBrowsers/main.cpp", "MU", null ],
 		[
-			"C:/CppProjects/cloudObjectStorageBrowsers/logindialog.cpp",
+			"C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiLogin/logindialog.cpp",
 			"MU",
 			null
 		],
-		[ "C:/CppProjects/cloudObjectStorageBrowsers/main.cpp", "MU", null ]
+		[
+			"C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/bucketswidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/objectswidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/toolbarwidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uiMain/uimain.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uicom/breadwidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/CppProjects/cloudObjectStorageBrowsers/src/fend/uicom/pagewidget.cpp",
+			"MU",
+			null
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
