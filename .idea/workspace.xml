@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6965f821-3315-4e67-b1f0-cac60eb51687" name="更改" comment="设计uimain、logindialog，设定主要的对话框">
+      <change afterPath="$PROJECT_DIR$/../Qos/Qos.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/resource.qrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/bend/man/mandb.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/bend/man/mandb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uicom/breadwidget.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uicom/breadwidget.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uicom/breadwidget.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uicom/mylineedit.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uicom/mylineedit.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uicom/pagewidget.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uicom/pagewidget.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uicom/pagewidget.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uidelegates/bucketdelegate.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uidelegates/bucketdelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uilogin/logindialog.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uilogin/logindialog.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uilogin/logindialog.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/bucketswidget.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/bucketswidget.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/bucketswidget.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/objectswidget.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/objectswidget.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/objectswidget.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/toolbarwidget.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/toolbarwidget.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/toolbarwidget.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/uimain.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/uimain.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/uimain.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/helper/dbsqlite.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/helper/dbsqlite.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/helper/filehelper.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/helper/filehelper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/static/imgs/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/static/qss/default.qss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QosBrowser/static/sql/login_info.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudObjectStorageBrowsers/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudObjectStorageBrowsers/src/middle/models/dbmodels.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudObjectStorageBrowsers/src/middle/models/mybucket.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudObjectStorageBrowsers/src/middle/models/mybucket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test01/.idea/test01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../111.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../111.creator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../111.cxxflags" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../111.files" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../111.includes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../111.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qos/qosbroeser/qosbroeser.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qos/test/test.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QosBrowser/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QosBrowser/QosBrowser_zh_CN.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QosBrowser/main.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QosBrowser/main.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QosBrowser/src/bend/dao/daobuckets.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QosBrowser/src/bend/dao/daobuckets.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QosBrowser/src/bend/dao/daologininfo.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QosBrowser/src/bend/dao/daologininfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QosBrowser/src/bend/man/manbuckets.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QosBrowser/src/bend/man/manbuckets.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QosBrowser/src/bend/models/dbmodels.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QosBrowser/src/bend/models/mybucket.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QosBrowser/src/bend/models/mybucket.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QosBrowser/src/config/config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QosBrowser/static/testing/buckets1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QosBrowser/static/testing/buckets2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudObjectStorageBrowsers/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cloudObjectStorageBrowsers/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudObjectStorageBrowsers/cloudObjectStorageBrowsers_zh_CN.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudObjectStorageBrowsers/logindialog.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudObjectStorageBrowsers/logindialog.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudObjectStorageBrowsers/logindialog.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../QosBrowser/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/mainwindow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/mainwindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/mainwindow.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/untitled.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/untitled_zh_CN.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="3.4" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2i5bQs69JpZ0DleGTfwii9acr23" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake 应用程序.cloudObjectStorageBrowsers.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "<未知>",
+    "last_opened_file_path": "C:/CppProjects/cloudObjectStorageBrowsers",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.language",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\CppProjects\cloudObjectStorageBrowsers\src\middle" />
+      <recent name="C:\CppProjects\cloudObjectStorageBrowsers\src\fend\uiLogin" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="6965f821-3315-4e67-b1f0-cac60eb51687" name="更改" comment="" />
+      <created>1718783372123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718783372123</updated>
+      <workItem from="1718783373137" duration="5912000" />
+      <workItem from="1718971636846" duration="10893000" />
+      <workItem from="1719749065332" duration="9048000" />
+      <workItem from="1720701148437" duration="1917000" />
+      <workItem from="1720842473079" duration="3093000" />
+    </task>
+    <task id="LOCAL-00001" summary="设计uimain、logindialog，设定主要的对话框">
+      <option name="closed" value="true" />
+      <created>1719475067177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719475067177</updated>
+    </task>
+    <task id="LOCAL-00002" summary="设计uimain、logindialog，设定主要的对话框">
+      <option name="closed" value="true" />
+      <created>1720183518047</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720183518047</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.qss" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="设计uimain、logindialog，设定主要的对话框" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计uimain、logindialog，设定主要的对话框" />
+  </component>
+</project>
