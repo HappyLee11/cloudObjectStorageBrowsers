@@ -52,6 +52,9 @@ OBJECTS_DIR   = release
 
 SOURCES       = ..\..\main.cpp \
 		..\..\src\bend\dao\clouds\daocloudsmock.cpp \
+		..\..\src\bend\dao\configs\version.cpp \
+		..\..\src\bend\dao\configs\versioncmd.cpp \
+		..\..\src\bend\dao\configs\versionjson.cpp \
 		..\..\src\bend\dao\daobuckets.cpp \
 		..\..\src\bend\dao\dbs\daologininfo.cpp \
 		..\..\src\bend\dao\dbs\daologininfosqlite.cpp \
@@ -84,6 +87,9 @@ SOURCES       = ..\..\main.cpp \
 		release\moc_manplugin.cpp
 OBJECTS       = release/main.o \
 		release/daocloudsmock.o \
+		release/version.o \
+		release/versioncmd.o \
+		release/versionjson.o \
 		release/daobuckets.o \
 		release/daologininfo.o \
 		release/daologininfosqlite.o \
@@ -118,14 +124,17 @@ OBJECTS       = release/main.o \
 
 DIST          =  ..\..\src\bend\dao\clouds\daoclouds.h \
 		..\..\src\bend\dao\clouds\daocloudsmock.h \
+		..\..\src\bend\dao\configs\version.h \
+		..\..\src\bend\dao\configs\versioncmd.h \
+		..\..\src\bend\dao\configs\versionjson.h \
 		..\..\src\bend\dao\daobuckets.h \
 		..\..\src\bend\dao\dbs\daologininfo.h \
 		..\..\src\bend\dao\dbs\daologininfosqlite.h \
 		..\..\src\bend\man\mancloud.h \
 		..\..\src\bend\man\mandb.h \
+		..\..\src\config\global.h \
 		..\..\src\middle\models\cloudmodels.h \
 		..\..\src\middle\models\dbmodels.h \
-		..\..\src\config\config.h \
 		..\..\src\fend\uidelegates\bucketdelegate.h \
 		..\..\src\fend\uicom\breadwidget.h \
 		..\..\src\fend\uicom\mylineedit.h \
@@ -139,6 +148,9 @@ DIST          =  ..\..\src\bend\dao\clouds\daoclouds.h \
 		..\..\src\helper\filehelper.h \
 		..\..\src\plugins\manplugin.h ..\..\main.cpp \
 		..\..\src\bend\dao\clouds\daocloudsmock.cpp \
+		..\..\src\bend\dao\configs\version.cpp \
+		..\..\src\bend\dao\configs\versioncmd.cpp \
+		..\..\src\bend\dao\configs\versionjson.cpp \
 		..\..\src\bend\dao\daobuckets.cpp \
 		..\..\src\bend\dao\dbs\daologininfo.cpp \
 		..\..\src\bend\dao\dbs\daologininfosqlite.cpp \
@@ -176,10 +188,10 @@ qmake: FORCE
 qmake_all: FORCE
 
 dist:
-	$(ZIP) cloudObjectStorageBrowsers.zip $(SOURCES) $(DIST) ..\..\..\..\cloudObjectStorageBrowsers.pro ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\spec_pre.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\qdevice.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\device_config.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\common\sanitize.conf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\common\gcc-base.conf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\common\g++-base.conf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\common\angle.conf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\win32\windows_vulkan_sdk.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\common\windows-vulkan.conf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\common\g++-win32.conf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\common\windows-desktop.conf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\qconfig.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3danimation.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3danimation_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dcore.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dcore_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dextras.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dextras_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dinput.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dinput_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dlogic.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dlogic_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquick.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquick_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquickanimation.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquickanimation_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquickextras.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquickextras_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquickinput.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquickinput_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquickrender.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquickrender_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquickscene2d.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquickscene2d_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3drender.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3drender_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_accessibility_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_axbase.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_axbase_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_axcontainer.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_axcontainer_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_axserver.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_axserver_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_bluetooth.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_bluetooth_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_bootstrap_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_concurrent.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_concurrent_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_core.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_core_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_dbus.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_dbus_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_designer.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_designer_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_designercomponents_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_devicediscovery_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_edid_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_egl_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_eventdispatcher_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_fb_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_fontdatabase_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_gamepad.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_gamepad_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_gui.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_gui_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_help.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_help_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_location.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_location_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_multimedia.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_multimedia_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_multimediawidgets.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_multimediawidgets_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_network.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_network_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_nfc.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_nfc_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_opengl.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_opengl_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_openglextensions.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_openglextensions_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_packetprotocol_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_platformcompositor_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_positioning.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_positioning_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_positioningquick.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_positioningquick_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_printsupport.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_printsupport_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qml.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qml_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qmldebug_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qmldevtools_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qmlmodels.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qmlmodels_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qmltest.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qmltest_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qmlworkerscript.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qmlworkerscript_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qtmultimediaquicktools_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_quick.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_quick_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_quickcontrols2.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_quickcontrols2_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_quickparticles_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_quickshapes_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_quicktemplates2.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_quicktemplates2_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_quickwidgets.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_quickwidgets_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_remoteobjects.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_remoteobjects_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_repparser.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_repparser_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_scxml.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_scxml_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_sensors.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_sensors_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_serialbus.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_serialbus_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_serialport.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_serialport_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_sql.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_sql_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_svg.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_svg_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_testlib.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_testlib_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_texttospeech.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_texttospeech_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_theme_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_uiplugin.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_uitools.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_uitools_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_vulkan_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_webchannel.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_webchannel_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_websockets.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_websockets_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_widgets.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_widgets_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_windowsuiautomation_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_winextras.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_winextras_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_xml.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_xml_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_xmlpatterns.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_xmlpatterns_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_zlib_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\qt_functions.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\qt_config.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\win32-g++\qmake.conf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\spec_post.prf .qmake.stash ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\exclusive_builds.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\toolchain.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\default_pre.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\win32\default_pre.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\resolve_config.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\exclusive_builds_post.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\default_post.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\build_pass.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\qml_debug.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\precompile_header.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\warn_on.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\qt.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\resources_functions.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\resources.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\moc.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\win32\opengl.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\uic.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\qmake_use.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\file_copies.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\win32\windows.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\testcase_targets.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\exceptions.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\yacc.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\lex.prf ..\..\cloudObjectStorageBrowsers.pro ..\..\resource.qrc ..\..\..\..\QT5\5.15.2\mingw81_64\lib\Qt5Widgets.prl ..\..\..\..\QT5\5.15.2\mingw81_64\lib\Qt5Gui.prl ..\..\..\..\QT5\5.15.2\mingw81_64\lib\Qt5Sql.prl ..\..\..\..\QT5\5.15.2\mingw81_64\lib\Qt5Core.prl ..\..\..\..\QT5\5.15.2\mingw81_64\lib\qtmain.prl   ..\..\resource.qrc ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\data\dummy.cpp ..\..\src\bend\dao\clouds\daoclouds.h ..\..\src\bend\dao\clouds\daocloudsmock.h ..\..\src\bend\dao\daobuckets.h ..\..\src\bend\dao\dbs\daologininfo.h ..\..\src\bend\dao\dbs\daologininfosqlite.h ..\..\src\bend\man\mancloud.h ..\..\src\bend\man\mandb.h ..\..\src\middle\models\cloudmodels.h ..\..\src\middle\models\dbmodels.h ..\..\src\config\config.h ..\..\src\fend\uidelegates\bucketdelegate.h ..\..\src\fend\uicom\breadwidget.h ..\..\src\fend\uicom\mylineedit.h ..\..\src\fend\uicom\pagewidget.h ..\..\src\fend\uilogin\logindialog.h ..\..\src\fend\uimain\bucketswidget.h ..\..\src\fend\uimain\objectswidget.h ..\..\src\fend\uimain\toolbarwidget.h ..\..\src\fend\uimain\uimain.h ..\..\src\helper\dbsqlite.h ..\..\src\helper\filehelper.h ..\..\src\plugins\manplugin.h  ..\..\main.cpp ..\..\src\bend\dao\clouds\daocloudsmock.cpp ..\..\src\bend\dao\daobuckets.cpp ..\..\src\bend\dao\dbs\daologininfo.cpp ..\..\src\bend\dao\dbs\daologininfosqlite.cpp ..\..\src\bend\man\mancloud.cpp ..\..\src\bend\man\mandb.cpp ..\..\src\fend\uidelegates\bucketdelegate.cpp ..\..\src\fend\uicom\breadwidget.cpp ..\..\src\fend\uicom\mylineedit.cpp ..\..\src\fend\uicom\pagewidget.cpp ..\..\src\fend\uilogin\logindialog.cpp ..\..\src\fend\uimain\bucketswidget.cpp ..\..\src\fend\uimain\objectswidget.cpp ..\..\src\fend\uimain\toolbarwidget.cpp ..\..\src\fend\uimain\uimain.cpp ..\..\src\helper\dbsqlite.cpp ..\..\src\helper\filehelper.cpp ..\..\src\middle\models\cloudmodels.cpp ..\..\src\plugins\manplugin.cpp ..\..\src\fend\uicom\breadwidget.ui ..\..\src\fend\uicom\pagewidget.ui ..\..\src\fend\uilogin\logindialog.ui ..\..\src\fend\uimain\bucketswidget.ui ..\..\src\fend\uimain\objectswidget.ui ..\..\src\fend\uimain\toolbarwidget.ui ..\..\src\fend\uimain\uimain.ui    
+	$(ZIP) cloudObjectStorageBrowsers.zip $(SOURCES) $(DIST) ..\..\..\..\cloudObjectStorageBrowsers.pro ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\spec_pre.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\qdevice.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\device_config.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\common\sanitize.conf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\common\gcc-base.conf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\common\g++-base.conf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\common\angle.conf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\win32\windows_vulkan_sdk.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\common\windows-vulkan.conf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\common\g++-win32.conf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\common\windows-desktop.conf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\qconfig.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3danimation.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3danimation_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dcore.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dcore_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dextras.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dextras_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dinput.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dinput_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dlogic.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dlogic_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquick.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquick_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquickanimation.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquickanimation_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquickextras.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquickextras_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquickinput.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquickinput_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquickrender.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquickrender_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquickscene2d.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3dquickscene2d_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3drender.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_3drender_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_accessibility_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_axbase.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_axbase_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_axcontainer.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_axcontainer_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_axserver.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_axserver_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_bluetooth.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_bluetooth_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_bootstrap_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_concurrent.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_concurrent_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_core.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_core_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_dbus.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_dbus_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_designer.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_designer_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_designercomponents_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_devicediscovery_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_edid_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_egl_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_eventdispatcher_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_fb_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_fontdatabase_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_gamepad.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_gamepad_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_gui.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_gui_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_help.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_help_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_location.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_location_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_multimedia.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_multimedia_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_multimediawidgets.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_multimediawidgets_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_network.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_network_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_nfc.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_nfc_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_opengl.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_opengl_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_openglextensions.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_openglextensions_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_packetprotocol_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_platformcompositor_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_positioning.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_positioning_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_positioningquick.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_positioningquick_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_printsupport.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_printsupport_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qml.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qml_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qmldebug_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qmldevtools_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qmlmodels.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qmlmodels_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qmltest.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qmltest_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qmlworkerscript.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qmlworkerscript_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_qtmultimediaquicktools_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_quick.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_quick_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_quickcontrols2.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_quickcontrols2_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_quickparticles_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_quickshapes_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_quicktemplates2.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_quicktemplates2_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_quickwidgets.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_quickwidgets_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_remoteobjects.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_remoteobjects_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_repparser.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_repparser_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_scxml.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_scxml_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_sensors.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_sensors_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_serialbus.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_serialbus_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_serialport.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_serialport_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_sql.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_sql_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_svg.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_svg_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_testlib.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_testlib_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_texttospeech.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_texttospeech_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_theme_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_uiplugin.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_uitools.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_uitools_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_vulkan_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_webchannel.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_webchannel_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_websockets.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_websockets_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_widgets.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_widgets_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_windowsuiautomation_support_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_winextras.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_winextras_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_xml.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_xml_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_xmlpatterns.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_xmlpatterns_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\modules\qt_lib_zlib_private.pri ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\qt_functions.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\qt_config.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\win32-g++\qmake.conf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\spec_post.prf .qmake.stash ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\exclusive_builds.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\toolchain.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\default_pre.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\win32\default_pre.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\resolve_config.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\exclusive_builds_post.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\default_post.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\build_pass.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\qml_debug.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\precompile_header.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\warn_on.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\qt.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\resources_functions.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\resources.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\moc.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\win32\opengl.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\uic.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\qmake_use.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\file_copies.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\win32\windows.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\testcase_targets.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\exceptions.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\yacc.prf ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\lex.prf ..\..\cloudObjectStorageBrowsers.pro ..\..\resource.qrc ..\..\..\..\QT5\5.15.2\mingw81_64\lib\Qt5Widgets.prl ..\..\..\..\QT5\5.15.2\mingw81_64\lib\Qt5Gui.prl ..\..\..\..\QT5\5.15.2\mingw81_64\lib\Qt5Sql.prl ..\..\..\..\QT5\5.15.2\mingw81_64\lib\Qt5Core.prl ..\..\..\..\QT5\5.15.2\mingw81_64\lib\qtmain.prl   ..\..\resource.qrc ..\..\..\..\QT5\5.15.2\mingw81_64\mkspecs\features\data\dummy.cpp ..\..\src\bend\dao\clouds\daoclouds.h ..\..\src\bend\dao\clouds\daocloudsmock.h ..\..\src\bend\dao\configs\version.h ..\..\src\bend\dao\configs\versioncmd.h ..\..\src\bend\dao\configs\versionjson.h ..\..\src\bend\dao\daobuckets.h ..\..\src\bend\dao\dbs\daologininfo.h ..\..\src\bend\dao\dbs\daologininfosqlite.h ..\..\src\bend\man\mancloud.h ..\..\src\bend\man\mandb.h ..\..\src\config\global.h ..\..\src\middle\models\cloudmodels.h ..\..\src\middle\models\dbmodels.h ..\..\src\fend\uidelegates\bucketdelegate.h ..\..\src\fend\uicom\breadwidget.h ..\..\src\fend\uicom\mylineedit.h ..\..\src\fend\uicom\pagewidget.h ..\..\src\fend\uilogin\logindialog.h ..\..\src\fend\uimain\bucketswidget.h ..\..\src\fend\uimain\objectswidget.h ..\..\src\fend\uimain\toolbarwidget.h ..\..\src\fend\uimain\uimain.h ..\..\src\helper\dbsqlite.h ..\..\src\helper\filehelper.h ..\..\src\plugins\manplugin.h  ..\..\main.cpp ..\..\src\bend\dao\clouds\daocloudsmock.cpp ..\..\src\bend\dao\configs\version.cpp ..\..\src\bend\dao\configs\versioncmd.cpp ..\..\src\bend\dao\configs\versionjson.cpp ..\..\src\bend\dao\daobuckets.cpp ..\..\src\bend\dao\dbs\daologininfo.cpp ..\..\src\bend\dao\dbs\daologininfosqlite.cpp ..\..\src\bend\man\mancloud.cpp ..\..\src\bend\man\mandb.cpp ..\..\src\fend\uidelegates\bucketdelegate.cpp ..\..\src\fend\uicom\breadwidget.cpp ..\..\src\fend\uicom\mylineedit.cpp ..\..\src\fend\uicom\pagewidget.cpp ..\..\src\fend\uilogin\logindialog.cpp ..\..\src\fend\uimain\bucketswidget.cpp ..\..\src\fend\uimain\objectswidget.cpp ..\..\src\fend\uimain\toolbarwidget.cpp ..\..\src\fend\uimain\uimain.cpp ..\..\src\helper\dbsqlite.cpp ..\..\src\helper\filehelper.cpp ..\..\src\middle\models\cloudmodels.cpp ..\..\src\plugins\manplugin.cpp ..\..\src\fend\uicom\breadwidget.ui ..\..\src\fend\uicom\pagewidget.ui ..\..\src\fend\uilogin\logindialog.ui ..\..\src\fend\uimain\bucketswidget.ui ..\..\src\fend\uimain\objectswidget.ui ..\..\src\fend\uimain\toolbarwidget.ui ..\..\src\fend\uimain\uimain.ui    
 
 clean: compiler_clean 
-	-$(DEL_FILE) release\main.o release\daocloudsmock.o release\daobuckets.o release\daologininfo.o release\daologininfosqlite.o release\mancloud.o release\mandb.o release\bucketdelegate.o release\breadwidget.o release\mylineedit.o release\pagewidget.o release\logindialog.o release\bucketswidget.o release\objectswidget.o release\toolbarwidget.o release\uimain.o release\dbsqlite.o release\filehelper.o release\cloudmodels.o release\manplugin.o release\qrc_resource.o release\moc_mancloud.o release\moc_mandb.o release\moc_bucketdelegate.o release\moc_breadwidget.o release\moc_mylineedit.o release\moc_pagewidget.o release\moc_logindialog.o release\moc_bucketswidget.o release\moc_objectswidget.o release\moc_toolbarwidget.o release\moc_uimain.o release\moc_manplugin.o
+	-$(DEL_FILE) release\main.o release\daocloudsmock.o release\version.o release\versioncmd.o release\versionjson.o release\daobuckets.o release\daologininfo.o release\daologininfosqlite.o release\mancloud.o release\mandb.o release\bucketdelegate.o release\breadwidget.o release\mylineedit.o release\pagewidget.o release\logindialog.o release\bucketswidget.o release\objectswidget.o release\toolbarwidget.o release\uimain.o release\dbsqlite.o release\filehelper.o release\cloudmodels.o release\manplugin.o release\qrc_resource.o release\moc_mancloud.o release\moc_mandb.o release\moc_bucketdelegate.o release\moc_breadwidget.o release\moc_mylineedit.o release\moc_pagewidget.o release\moc_logindialog.o release\moc_bucketswidget.o release\moc_objectswidget.o release\moc_toolbarwidget.o release\moc_uimain.o release\moc_manplugin.o
 
 distclean: clean 
 	-$(DEL_FILE) .qmake.stash
@@ -1390,10 +1402,11 @@ release/moc_uimain.cpp: ../../src/fend/uimain/uimain.h \
 	C:\QT5\5.15.2\mingw81_64\bin\moc.exe $(DEFINES) --include C:/CppProjects/cloudObjectStorageBrowsers/build/Qt5_15_2_mingw_64-Debug/release/moc_predefs.h -IC:/QT5/5.15.2/mingw81_64/mkspecs/win32-g++ -IC:/CppProjects/cloudObjectStorageBrowsers -IC:/QT5/5.15.2/mingw81_64/include -IC:/QT5/5.15.2/mingw81_64/include/QtWidgets -IC:/QT5/5.15.2/mingw81_64/include/QtGui -IC:/QT5/5.15.2/mingw81_64/include/QtANGLE -IC:/QT5/5.15.2/mingw81_64/include/QtSql -IC:/QT5/5.15.2/mingw81_64/include/QtCore -I. -IC:/QT5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ -IC:/QT5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32 -IC:/QT5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward -IC:/QT5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include -IC:/QT5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed -IC:/QT5/Tools/mingw810_64/x86_64-w64-mingw32/include ..\..\src\fend\uimain\uimain.h -o release\moc_uimain.cpp
 
 release/moc_manplugin.cpp: ../../src/plugins/manplugin.h \
-		../../src/bend/dao/clouds/daoclouds.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QList \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qlist.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
+		../../src/bend/dao/clouds/daocloudsmock.h \
+		../../src/middle/models/cloudmodels.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QString \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstring.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qchar.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qglobal.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qconfig-bootstrapped.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qconfig.h \
@@ -1415,18 +1428,22 @@ release/moc_manplugin.cpp: ../../src/plugins/manplugin.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qmutex.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qnumeric.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qiterator.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstring.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qchar.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qbytearray.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qnamespace.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringliteral.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringview.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringbuilder.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QJsonValue \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qjsonvalue.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qhash.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qiterator.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qlist.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qpair.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qvector.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
@@ -1435,18 +1452,35 @@ release/moc_manplugin.cpp: ../../src/plugins/manplugin.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringlist.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qregexp.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringmatcher.h \
-		../../src/middle/models/cloudmodels.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QString \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QObject \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobject.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcborvalue.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qdatetime.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcborcommon.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobjectdefs.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobjectdefs_impl.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcoreevent.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qmap.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qtextstream.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qiodevice.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobject.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcoreevent.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobject_impl.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qlocale.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qset.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qregularexpression.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qurl.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qurlquery.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/quuid.h \
+		../../src/bend/dao/clouds/daoclouds.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QList \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QObject \
 		release/moc_predefs.h \
 		../../../../QT5/5.15.2/mingw81_64/bin/moc.exe
 	C:\QT5\5.15.2\mingw81_64\bin\moc.exe $(DEFINES) --include C:/CppProjects/cloudObjectStorageBrowsers/build/Qt5_15_2_mingw_64-Debug/release/moc_predefs.h -IC:/QT5/5.15.2/mingw81_64/mkspecs/win32-g++ -IC:/CppProjects/cloudObjectStorageBrowsers -IC:/QT5/5.15.2/mingw81_64/include -IC:/QT5/5.15.2/mingw81_64/include/QtWidgets -IC:/QT5/5.15.2/mingw81_64/include/QtGui -IC:/QT5/5.15.2/mingw81_64/include/QtANGLE -IC:/QT5/5.15.2/mingw81_64/include/QtSql -IC:/QT5/5.15.2/mingw81_64/include/QtCore -I. -IC:/QT5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ -IC:/QT5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32 -IC:/QT5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward -IC:/QT5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include -IC:/QT5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed -IC:/QT5/Tools/mingw810_64/x86_64-w64-mingw32/include ..\..\src\plugins\manplugin.h -o release\moc_manplugin.cpp
@@ -2226,6 +2260,8 @@ release/daocloudsmock.o: ../../src/bend/dao/clouds/daocloudsmock.cpp ../../src/b
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qurl.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qurlquery.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/quuid.h \
+		../../src/bend/dao/clouds/daoclouds.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QList \
 		../../src/helper/filehelper.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QVariant \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QJsonArray \
@@ -2235,6 +2271,245 @@ release/daocloudsmock.o: ../../src/bend/dao/clouds/daocloudsmock.cpp ../../src/b
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qdeadlinetimer.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qelapsedtimer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\daocloudsmock.o ..\..\src\bend\dao\clouds\daocloudsmock.cpp
+
+release/version.o: ../../src/bend/dao/configs/version.cpp ../../src/bend/dao/configs/version.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QString \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstring.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qchar.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qglobal.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qconfig-bootstrapped.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qconfig.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qtcore-config.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qprocessordetection.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcompilerdetection.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qsysinfo.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qlogging.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qflags.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qatomic.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qbasicatomic.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qatomic_bootstrap.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qatomic_cxx11.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qatomic_msvc.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qglobalstatic.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qmutex.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qnumeric.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qbytearray.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qnamespace.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringliteral.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringview.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringbuilder.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QJsonObject \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qjsonobject.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qjsonvalue.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qhash.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qiterator.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qlist.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qpair.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qvector.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qpoint.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qbytearraylist.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringlist.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qregexp.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringmatcher.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcborvalue.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qdatetime.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcborcommon.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobjectdefs.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobjectdefs_impl.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qmap.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qtextstream.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qiodevice.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobject.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcoreevent.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobject_impl.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qlocale.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qset.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qregularexpression.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qurl.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qurlquery.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/quuid.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\version.o ..\..\src\bend\dao\configs\version.cpp
+
+release/versioncmd.o: ../../src/bend/dao/configs/versioncmd.cpp ../../src/bend/dao/configs/versioncmd.h \
+		../../src/bend/dao/configs/version.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QString \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstring.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qchar.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qglobal.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qconfig-bootstrapped.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qconfig.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qtcore-config.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qprocessordetection.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcompilerdetection.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qsysinfo.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qlogging.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qflags.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qatomic.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qbasicatomic.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qatomic_bootstrap.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qatomic_cxx11.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qatomic_msvc.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qglobalstatic.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qmutex.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qnumeric.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qbytearray.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qnamespace.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringliteral.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringview.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringbuilder.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QJsonObject \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qjsonobject.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qjsonvalue.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qhash.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qiterator.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qlist.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qpair.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qvector.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qpoint.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qbytearraylist.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringlist.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qregexp.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringmatcher.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcborvalue.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qdatetime.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcborcommon.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobjectdefs.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobjectdefs_impl.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qmap.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qtextstream.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qiodevice.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobject.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcoreevent.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobject_impl.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qlocale.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qset.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qregularexpression.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qurl.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qurlquery.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/quuid.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QStringList
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\versioncmd.o ..\..\src\bend\dao\configs\versioncmd.cpp
+
+release/versionjson.o: ../../src/bend/dao/configs/versionjson.cpp ../../src/bend/dao/configs/versionjson.h \
+		../../src/bend/dao/configs/version.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QString \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstring.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qchar.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qglobal.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qconfig-bootstrapped.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qconfig.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qtcore-config.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qprocessordetection.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcompilerdetection.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qsysinfo.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qlogging.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qflags.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qatomic.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qbasicatomic.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qatomic_bootstrap.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qatomic_cxx11.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qatomic_msvc.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qglobalstatic.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qmutex.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qnumeric.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qbytearray.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qnamespace.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringliteral.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringview.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringbuilder.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QJsonObject \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qjsonobject.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qjsonvalue.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qhash.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qiterator.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qlist.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qpair.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qvector.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qpoint.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qbytearraylist.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringlist.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qregexp.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringmatcher.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcborvalue.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qdatetime.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcborcommon.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobjectdefs.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobjectdefs_impl.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qmap.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qtextstream.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qiodevice.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobject.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcoreevent.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobject_impl.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qlocale.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qset.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qregularexpression.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qurl.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qurlquery.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/quuid.h \
+		../../src/helper/filehelper.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QVariant
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\versionjson.o ..\..\src\bend\dao\configs\versionjson.cpp
 
 release/daobuckets.o: ../../src/bend/dao/daobuckets.cpp ../../src/bend/dao/daobuckets.h \
 		../../src/middle/models/cloudmodels.h \
@@ -2393,7 +2668,7 @@ release/daologininfo.o: ../../src/bend/dao/dbs/daologininfo.cpp ../../src/bend/d
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
 		../../src/middle/models/dbmodels.h \
-		../../src/config/config.h \
+		../../src/config/global.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QDir \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qdir.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qfileinfo.h \
@@ -2478,7 +2753,7 @@ release/daologininfosqlite.o: ../../src/bend/dao/dbs/daologininfosqlite.cpp ../.
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
 		../../src/middle/models/dbmodels.h \
-		../../src/config/config.h \
+		../../src/config/global.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QDir \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qdir.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qfileinfo.h \
@@ -2594,8 +2869,7 @@ release/mancloud.o: ../../src/bend/man/mancloud.cpp ../../src/bend/man/mancloud.
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qurlquery.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/quuid.h \
 		../../src/plugins/manplugin.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QDebug \
-		../../src/bend/dao/daobuckets.h
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QDebug
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\mancloud.o ..\..\src\bend\man\mancloud.cpp
 
 release/mandb.o: ../../src/bend/man/mandb.cpp ../../src/bend/man/mandb.h \
@@ -3446,6 +3720,12 @@ release/bucketswidget.o: ../../src/fend/uimain/bucketswidget.cpp ../../src/fend/
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
+		../../src/bend/man/mancloud.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QObject \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtGui/QStandardItemModel \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtGui/qstandarditemmodel.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtGui/qicon.h \
 		ui_bucketswidget.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QVariant \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtWidgets/QApplication \
@@ -3471,14 +3751,12 @@ release/bucketswidget.o: ../../src/fend/uimain/bucketswidget.cpp ../../src/fend/
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtWidgets/qlistview.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtWidgets/qabstractitemview.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtWidgets/qabstractscrollarea.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qitemselectionmodel.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtWidgets/qabstractitemdelegate.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtWidgets/qstyleoption.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtWidgets/qabstractspinbox.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtGui/qvalidator.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qregularexpression.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtGui/qicon.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtWidgets/qslider.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtWidgets/qabstractslider.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtWidgets/qstyle.h \
@@ -3595,6 +3873,12 @@ release/objectswidget.o: ../../src/fend/uimain/objectswidget.cpp ../../src/fend/
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
+		../../src/bend/man/mancloud.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QObject \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtGui/QStandardItemModel \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtGui/qstandarditemmodel.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtGui/qicon.h \
 		ui_objectswidget.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QVariant \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtWidgets/QApplication \
@@ -3609,14 +3893,12 @@ release/objectswidget.o: ../../src/fend/uimain/objectswidget.cpp ../../src/fend/
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtWidgets/qabstractitemview.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtWidgets/qabstractscrollarea.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtWidgets/qframe.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qitemselectionmodel.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtWidgets/qabstractitemdelegate.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtWidgets/qstyleoption.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtWidgets/qabstractspinbox.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtGui/qvalidator.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qregularexpression.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtGui/qicon.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtWidgets/qslider.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtWidgets/qabstractslider.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtWidgets/qstyle.h \
@@ -4102,10 +4384,11 @@ release/cloudmodels.o: ../../src/middle/models/cloudmodels.cpp ../../src/middle/
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\cloudmodels.o ..\..\src\middle\models\cloudmodels.cpp
 
 release/manplugin.o: ../../src/plugins/manplugin.cpp ../../src/plugins/manplugin.h \
-		../../src/bend/dao/clouds/daoclouds.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QList \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qlist.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
+		../../src/bend/dao/clouds/daocloudsmock.h \
+		../../src/middle/models/cloudmodels.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QString \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstring.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qchar.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qglobal.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qconfig-bootstrapped.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qconfig.h \
@@ -4127,18 +4410,22 @@ release/manplugin.o: ../../src/plugins/manplugin.cpp ../../src/plugins/manplugin
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qmutex.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qnumeric.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qiterator.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstring.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qchar.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qbytearray.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qnamespace.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringliteral.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringview.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringbuilder.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QJsonValue \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qjsonvalue.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qhash.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qiterator.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qlist.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qpair.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qvector.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
@@ -4147,30 +4434,22 @@ release/manplugin.o: ../../src/plugins/manplugin.cpp ../../src/plugins/manplugin
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringlist.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qregexp.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qstringmatcher.h \
-		../../src/middle/models/cloudmodels.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QString \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QObject \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobject.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobjectdefs.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobjectdefs_impl.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcoreevent.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobject_impl.h \
-		../../src/bend/dao/clouds/daocloudsmock.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QJsonValue \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qjsonvalue.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qhash.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcborvalue.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qdatetime.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcborcommon.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobjectdefs.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobjectdefs_impl.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qmap.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qtextstream.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qiodevice.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobject.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qcoreevent.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qobject_impl.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qlocale.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qset.h \
@@ -4180,7 +4459,10 @@ release/manplugin.o: ../../src/plugins/manplugin.cpp ../../src/plugins/manplugin
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qregularexpression.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qurl.h \
 		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/qurlquery.h \
-		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/quuid.h
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/quuid.h \
+		../../src/bend/dao/clouds/daoclouds.h \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QList \
+		../../../../../../QT5/5.15.2/mingw81_64/include/QtCore/QObject
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\manplugin.o ..\..\src\plugins\manplugin.cpp
 
 release/qrc_resource.o: release/qrc_resource.cpp 

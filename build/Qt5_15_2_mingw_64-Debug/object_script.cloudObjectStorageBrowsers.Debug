@@ -1,5 +1,8 @@
 debug/main.o
 debug/daocloudsmock.o
+debug/version.o
+debug/versioncmd.o
+debug/versionjson.o
 debug/daobuckets.o
 debug/daologininfo.o
 debug/daologininfosqlite.o

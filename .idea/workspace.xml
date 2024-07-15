@@ -56,10 +56,6 @@
       <change afterPath="$PROJECT_DIR$/../QosBrowser/static/imgs/logo.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QosBrowser/static/qss/default.qss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QosBrowser/static/sql/login_info.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudObjectStorageBrowsers/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudObjectStorageBrowsers/src/middle/models/dbmodels.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudObjectStorageBrowsers/src/middle/models/mybucket.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudObjectStorageBrowsers/src/middle/models/mybucket.h" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test01/.idea/test01.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../111.config" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../111.creator" beforeDir="false" />
@@ -86,11 +82,6 @@
       <change beforePath="$PROJECT_DIR$/../QosBrowser/src/config/config.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../QosBrowser/static/testing/buckets1.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../QosBrowser/static/testing/buckets2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudObjectStorageBrowsers/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cloudObjectStorageBrowsers/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudObjectStorageBrowsers/cloudObjectStorageBrowsers_zh_CN.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudObjectStorageBrowsers/logindialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudObjectStorageBrowsers/logindialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudObjectStorageBrowsers/logindialog.ui" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../QosBrowser/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/main.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/mainwindow.cpp" beforeDir="false" />
@@ -135,7 +126,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "<未知>",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/CppProjects/cloudObjectStorageBrowsers",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -171,7 +162,7 @@
       <workItem from="1718971636846" duration="10893000" />
       <workItem from="1719749065332" duration="9048000" />
       <workItem from="1720701148437" duration="1917000" />
-      <workItem from="1720842473079" duration="3093000" />
+      <workItem from="1720842473079" duration="3690000" />
     </task>
     <task id="LOCAL-00001" summary="设计uimain、logindialog，设定主要的对话框">
       <option name="closed" value="true" />

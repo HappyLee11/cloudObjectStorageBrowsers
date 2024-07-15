@@ -1,5 +1,8 @@
 release/main.o
 release/daocloudsmock.o
+release/version.o
+release/versioncmd.o
+release/versionjson.o
 release/daobuckets.o
 release/daologininfo.o
 release/daologininfosqlite.o

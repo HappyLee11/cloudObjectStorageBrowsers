@@ -3,7 +3,7 @@
 #include "src/bend/dao/clouds/daocloudsmock.h"
 #include "src/plugins/manplugin.h"
 #include <QDebug>
-#include <src/bend/dao/daobuckets.h>
+
 
 Q_GLOBAL_STATIC(ManCloud, ins)
 

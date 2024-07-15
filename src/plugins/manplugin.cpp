@@ -16,7 +16,7 @@ ManPlugin *ManPlugin::instance()
 
 void ManPlugin::installPlugins()
 {
-    m_clouds = new DaoCloudsMock("://static/testing/buckets2.json");
+    m_clouds = new DaoCloudsMock("://static/testing/buckets1.json");
 
 }
 
