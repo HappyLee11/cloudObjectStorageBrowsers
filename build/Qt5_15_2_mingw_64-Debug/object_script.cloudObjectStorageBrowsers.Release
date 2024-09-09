@@ -1,4 +1,5 @@
 release/main.o
+release/daocloudscos.o
 release/daocloudsmock.o
 release/version.o
 release/versioncmd.o
@@ -6,8 +7,13 @@ release/versionjson.o
 release/daobuckets.o
 release/daologininfo.o
 release/daologininfosqlite.o
+release/basiclogger.o
+release/loggerqdebug.o
+release/gateway.o
 release/mancloud.o
 release/mandb.o
+release/exceptions.o
+release/loggerproxy.o
 release/bucketdelegate.o
 release/breadwidget.o
 release/mylineedit.o
@@ -19,11 +25,20 @@ release/toolbarwidget.o
 release/uimain.o
 release/dbsqlite.o
 release/filehelper.o
+release/manglobal.o
+release/manmodels.o
 release/cloudmodels.o
+release/mansignals.o
 release/manplugin.o
 release/qrc_resource.o
+release/moc_basiclogger.o
+release/moc_loggerqdebug.o
+release/moc_gateway.o
 release/moc_mancloud.o
 release/moc_mandb.o
+release/moc_loggerproxy.o
+release/moc_manglobal.o
+release/moc_manmodels.o
 release/moc_bucketdelegate.o
 release/moc_breadwidget.o
 release/moc_mylineedit.o
@@ -33,4 +48,5 @@ release/moc_bucketswidget.o
 release/moc_objectswidget.o
 release/moc_toolbarwidget.o
 release/moc_uimain.o
+release/moc_mansignals.o
 release/moc_manplugin.o

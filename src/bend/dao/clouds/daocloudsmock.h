@@ -11,6 +11,7 @@ public:
     DaoCloudsMock(const QString& path);
 
     virtual QList<MyBucket> buckets();
+    virtual QList<MyBucket> login(const QString& secretId, const QString& secretKey);
 
 private:
     QJsonValue m_mock;

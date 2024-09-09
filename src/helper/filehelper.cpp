@@ -28,6 +28,40 @@ QVariant FileHelper::readAllJson(const QString &filePath)
     return doc.toVariant();
 }
 
+void FileHelper::writeFlie(const QStringList lines, const QString &filePath)
+{
+    QFile file(filePath);
+    if (file.open(QIODevice::WriteOnly))
+    {
+        QTextStream stream(&file);
+        stream.setCodec("UTF-8");
+        for(const auto& line: lines) {
+            stream << line << endl;
+        }
+        file.close();
+        return;
+    }
+    throw "写入文件失败";
+}
+
+QList<QStringList> FileHelper::readAllCsv(const QString &filePath)
+{
+    QList<QStringList> records;
+    QFile file(filePath);
+    if (file.exists() && file.open(QIODevice::ReadOnly)) {
+        QTextStream stream(&file);
+        while (!stream.atEnd()) {
+            QString line = stream.readLine();
+            QStringList row = line.split(',');
+            records.append(row);
+        }
+
+        file.close();
+    }
+
+    return records;
+}
+
 QString FileHelper::joinPath(const QString &path1, const QString &path2)
 {
     QString path = path1 + "/" + path2;

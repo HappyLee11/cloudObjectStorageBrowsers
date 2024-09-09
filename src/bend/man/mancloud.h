@@ -12,11 +12,13 @@ class ManCloud : public QObject
 public:
     //不要使用ManCloud构造函数创建对象，直接使用instance来使用对象即可
     explicit ManCloud(QObject *parent = nullptr);
-
+    ~ManCloud();
     static ManCloud* instance();
 
     void setBuckets();
     QStandardItemModel *model() const;
+
+    void login(QString secretId, QString secretKey);
 
 private:
     QStandardItemModel* m_model = nullptr;

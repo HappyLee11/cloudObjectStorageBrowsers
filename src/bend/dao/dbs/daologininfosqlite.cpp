@@ -1,5 +1,5 @@
 #include "daologininfosqlite.h"
-#include "src/config/global.h"
+#include "src/config/globals.h"
 
 DaoLoginInfoSqlite::DaoLoginInfoSqlite() {}
 

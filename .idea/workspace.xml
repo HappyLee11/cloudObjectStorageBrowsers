@@ -18,77 +18,816 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6965f821-3315-4e67-b1f0-cac60eb51687" name="更改" comment="设计uimain、logindialog，设定主要的对话框">
-      <change afterPath="$PROJECT_DIR$/../Qos/Qos.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/resource.qrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/bend/man/mandb.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/bend/man/mandb.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uicom/breadwidget.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uicom/breadwidget.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uicom/breadwidget.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uicom/mylineedit.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uicom/mylineedit.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uicom/pagewidget.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uicom/pagewidget.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uicom/pagewidget.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uidelegates/bucketdelegate.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uidelegates/bucketdelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uilogin/logindialog.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uilogin/logindialog.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uilogin/logindialog.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/bucketswidget.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/bucketswidget.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/bucketswidget.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/objectswidget.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/objectswidget.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/objectswidget.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/toolbarwidget.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/toolbarwidget.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/toolbarwidget.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/uimain.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/uimain.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/fend/uimain/uimain.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/helper/dbsqlite.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/helper/dbsqlite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/helper/filehelper.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/src/helper/filehelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/static/imgs/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/static/qss/default.qss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QosBrowser/static/sql/login_info.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test01/.idea/test01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../111.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../111.creator" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../111.cxxflags" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../111.files" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../111.includes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../111.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qos/qosbroeser/qosbroeser.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qos/test/test.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QosBrowser/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QosBrowser/QosBrowser_zh_CN.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QosBrowser/main.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QosBrowser/main.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QosBrowser/src/bend/dao/daobuckets.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QosBrowser/src/bend/dao/daobuckets.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QosBrowser/src/bend/dao/daologininfo.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QosBrowser/src/bend/dao/daologininfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QosBrowser/src/bend/man/manbuckets.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QosBrowser/src/bend/man/manbuckets.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QosBrowser/src/bend/models/dbmodels.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QosBrowser/src/bend/models/mybucket.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QosBrowser/src/bend/models/mybucket.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QosBrowser/src/config/config.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QosBrowser/static/testing/buckets1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QosBrowser/static/testing/buckets2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../QosBrowser/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/mainwindow.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/mainwindow.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/mainwindow.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/untitled.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/untitled_zh_CN.ts" beforeDir="false" />
+    <list default="true" id="6965f821-3315-4e67-b1f0-cac60eb51687" name="更改" comment="添加版本控制">
+      <change afterPath="$PROJECT_DIR$/src/bend/dao/clouds/daocloudscos.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bend/dao/clouds/daocloudscos.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bend/dao/logs/basiclogger.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bend/dao/logs/basiclogger.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bend/dao/logs/loggerqdebug.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bend/dao/logs/loggerqdebug.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bend/gateway.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bend/gateway.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/apis.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/errorcode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/exceptions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/exceptions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/loggerproxy.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/loggerproxy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/manglobal.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/manglobal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/manmodels.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/manmodels.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/signals/mansignals.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/signals/mansignals.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/configs/cosconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/versions/config_default.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/cos_api.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/cos_config.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/cos_defines.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/cos_params.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/cos_sys_config.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/op/base_op.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/op/bucket_op.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/op/cos_result.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/op/file_copy_task.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/op/file_download_task.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/op/file_upload_task.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/op/object_op.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/op/service_op.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/rapidxml/1.13/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/rapidxml/1.13/rapidxml.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/rapidxml/1.13/rapidxml_iterators.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/rapidxml/1.13/rapidxml_print.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/rapidxml/1.13/rapidxml_utils.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/request/auditing_req.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/request/base_req.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/request/bucket_req.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/request/data_process_req.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/request/object_req.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/request/service_req.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/response/auditing_resp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/response/base_resp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/response/bucket_resp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/response/data_process_resp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/response/object_resp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/response/service_resp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/trsf/async_context.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/trsf/async_task.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/trsf/transfer_handler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/util/auth_tool.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/util/codec_util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/util/crc64.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/util/file_util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/util/http_sender.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/util/log_util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/util/lru_cache.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/util/noncopyable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/util/sha1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/util/simple_dns_cache.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/util/string_util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/include/util/test_utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/libs/Win32/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/libs/linux/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/libs/macOS/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/libs/x64/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/libs/x64/cossdk.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/AbstractCache.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/AbstractDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/AbstractEvent.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/AbstractObserver.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/AbstractPriorityDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/AbstractStrategy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/AccessExpirationDecorator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/AccessExpireCache.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/AccessExpireLRUCache.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/AccessExpireStrategy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/ActiveDispatcher.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/ActiveMethod.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/ActiveResult.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/ActiveRunnable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/ActiveStarter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Activity.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Alignment.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Any.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Ascii.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/AsyncChannel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/AtomicCounter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/AutoPtr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/AutoReleasePool.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/BasicEvent.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Buffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/BufferAllocator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/BufferedBidirectionalStreamBuf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/BufferedStreamBuf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Bugcheck.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Checksum.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Config.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/Cipher.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/CipherFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/CipherImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/CipherKey.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/CipherKeyImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/Crypto.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/CryptoException.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/CryptoStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/CryptoTransform.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/DigestEngine.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/ECDSADigestEngine.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/ECKey.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/ECKeyImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/EVPPKey.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/KeyPair.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/KeyPairImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/OpenSSLInitializer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/PKCS12Container.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/RSACipherImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/RSADigestEngine.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/RSAKey.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/RSAKeyImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Crypto/X509Certificate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/AbstractBinder.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/AbstractBinding.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/AbstractExtraction.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/AbstractExtractor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/AbstractPreparation.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/AbstractPreparator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/AbstractSessionImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/ArchiveStrategy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/AutoTransaction.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/Binding.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/Bulk.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/BulkBinding.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/BulkExtraction.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/Column.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/Connector.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/Constants.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/Data.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/DataException.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/Date.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/DynamicDateTime.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/DynamicLOB.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/Extraction.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/LOB.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/LOBStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/Limit.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/MetaColumn.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/PooledSessionHolder.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/PooledSessionImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/Position.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/Preparation.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/Range.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/RecordSet.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/Row.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/RowFilter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/RowFormatter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/RowIterator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/SQLChannel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/SQLite/Binder.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/SQLite/Connector.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/SQLite/Extractor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/SQLite/Notifier.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/SQLite/SQLite.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/SQLite/SQLiteException.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/SQLite/SQLiteStatementImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/SQLite/SessionImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/SQLite/Utility.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/Session.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/SessionFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/SessionImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/SessionPool.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/SessionPoolContainer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/SimpleRowFormatter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/Statement.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/StatementCreator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/StatementImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/Time.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/Transaction.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Data/TypeHandler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/DataURIStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/DataURIStreamFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/DateTime.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/DateTimeFormat.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/DateTimeFormatter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/DateTimeParser.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Debugger.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/DefaultStrategy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/DeflatingStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Delegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/DigestEngine.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/DigestStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/DirectoryIterator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/DirectoryIteratorStrategy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/DirectoryIterator_UNIX.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/DirectoryIterator_WIN32.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/DirectoryIterator_WIN32U.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Dynamic/Pair.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Dynamic/Struct.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Dynamic/Var.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Dynamic/VarHolder.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Dynamic/VarIterator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Event.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/EventArgs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/EventChannel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/EventLogChannel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Event_POSIX.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Event_VX.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Event_WIN32.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Exception.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/FIFOBuffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/FIFOBufferStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/FIFOEvent.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/FIFOStrategy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/FPEnvironment.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/FPEnvironment_C99.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/FPEnvironment_DEC.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/FPEnvironment_DUMMY.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/FPEnvironment_QNX.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/FPEnvironment_SUN.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/FPEnvironment_WIN32.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/File.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/FileChannel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/FileStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/FileStreamFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/FileStream_POSIX.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/FileStream_WIN32.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/File_UNIX.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/File_VX.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/File_WIN32.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/File_WIN32U.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/File_WINCE.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Format.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Foundation.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/HMACEngine.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/JSON/Array.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/JSON/Handler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/JSON/JSON.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/JSON/JSONException.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/JSON/Object.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/JSON/ParseHandler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/JSON/Parser.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/JSON/ParserImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/JSON/PrintHandler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/JSON/Query.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/JSON/Stringifier.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/JSON/Template.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/JSON/TemplateCache.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/JSONString.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/ListMap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/LocalDateTime.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/MD4Engine.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/MD5Engine.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/MetaObject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/MetaProgramming.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Mutex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Mutex_POSIX.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Mutex_WIN32.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Mutex_WINCE.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/AbstractHTTPRequestHandler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/AcceptCertificateHandler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/CertificateHandlerFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/CertificateHandlerFactoryMgr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/ConsoleCertificateHandler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/Context.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/DNS.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/DatagramSocket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/DatagramSocketImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/DialogSocket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/EscapeHTMLStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/FTPClientSession.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/FTPSClientSession.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/FTPSStreamFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/FTPStreamFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/FilePartSource.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTMLForm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPAuthenticationParams.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPBasicCredentials.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPBasicStreamBuf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPBufferAllocator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPChunkedStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPClientSession.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPCookie.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPCredentials.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPDigestCredentials.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPFixedLengthStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPHeaderStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPIOStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPMessage.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPNTLMCredentials.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPRequest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPRequestHandler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPRequestHandlerFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPResponse.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPSClientSession.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPSSessionInstantiator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPSStreamFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPServer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPServerConnection.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPServerConnectionFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPServerParams.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPServerRequest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPServerRequestImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPServerResponse.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPServerResponseImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPServerSession.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPSession.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPSessionFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPSessionInstantiator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HTTPStreamFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/HostEntry.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/ICMPClient.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/ICMPEventArgs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/ICMPPacket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/ICMPPacketImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/ICMPSocket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/ICMPSocketImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/ICMPv4PacketImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/IPAddress.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/IPAddressImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/InvalidCertificateHandler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/KeyConsoleHandler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/KeyFileHandler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/MailMessage.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/MailRecipient.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/MailStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/MediaType.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/MessageHeader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/MultiSocketPoller.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/MulticastSocket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/MultipartReader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/MultipartWriter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/NTLMCredentials.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/NTPClient.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/NTPEventArgs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/NTPPacket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/NameValueCollection.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/Net.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/NetException.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/NetSSL.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/NetworkInterface.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/NullPartHandler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/OAuth10Credentials.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/OAuth20Credentials.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/POP3ClientSession.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/ParallelSocketAcceptor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/ParallelSocketReactor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/PartHandler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/PartSource.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/PartStore.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/PollSet.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/PrivateKeyFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/PrivateKeyFactoryMgr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/PrivateKeyPassphraseHandler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/QuotedPrintableDecoder.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/QuotedPrintableEncoder.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/RawSocket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/RawSocketImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/RejectCertificateHandler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/RemoteSyslogChannel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/RemoteSyslogListener.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SMTPChannel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SMTPClientSession.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SSLException.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SSLManager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SSPINTLMCredentials.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SecureSMTPClientSession.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SecureServerSocket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SecureServerSocketImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SecureSocketImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SecureStreamSocket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SecureStreamSocketImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/ServerSocket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/ServerSocketImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/Session.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SingleSocketPoller.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/Socket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SocketAcceptor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SocketAddress.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SocketAddressImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SocketConnector.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SocketDefs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SocketImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SocketNotification.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SocketNotifier.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SocketReactor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/SocketStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/StreamSocket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/StreamSocketImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/StringPartSource.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/TCPServer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/TCPServerConnection.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/TCPServerConnectionFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/TCPServerDispatcher.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/TCPServerParams.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/UDPClient.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/UDPHandler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/UDPServer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/UDPServerParams.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/UDPSocketReader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/Utility.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/VerificationErrorArgs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/WebSocket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/WebSocketImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Net/X509Certificate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Notification.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/NotificationCenter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/NotificationQueue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/NotificationStrategy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/NullChannel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/NullStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Nullable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/NumberFormatter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/NumberParser.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/NumericString.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Path.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Path_UNIX.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Path_WIN32.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Path_WIN32U.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Path_WINCE.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/PatternFormatter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Platform.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Platform_POSIX.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Platform_VX.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Platform_WIN32.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/RecursiveDirectoryIterator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/RecursiveDirectoryIteratorImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/RefCountedObject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Runnable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/RunnableAdapter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/SHA1Engine.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/ScopedLock.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/SharedPtr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/SignalHandler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/SimpleFileChannel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/SimpleHashTable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/SingletonHolder.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/SortedDirectoryIterator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/StrategyCollection.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/StreamChannel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/StreamConverter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/StreamCopier.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/StreamTokenizer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/StreamUtil.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/String.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/StringTokenizer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Task.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/TaskManager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/TaskNotification.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/TextEncoding.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Thread.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/ThreadLocal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/ThreadPool.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/ThreadTarget.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Thread_POSIX.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Thread_VX.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Thread_WIN32.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Thread_WINCE.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Timespan.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Timestamp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/TypeList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Types.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/URI.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/URIStreamFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/URIStreamOpener.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/UTF16Encoding.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/UTF32Encoding.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/UTF8Encoding.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/UTF8String.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/UTFString.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/UnWindows.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Unicode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/UnicodeConverter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/UniqueAccessExpireCache.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/UniqueAccessExpireLRUCache.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/UniqueAccessExpireStrategy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/UniqueExpireCache.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/UniqueExpireLRUCache.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/UniqueExpireStrategy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/AbstractConfiguration.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/Application.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/ConfigurationMapper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/ConfigurationView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/FilesystemConfiguration.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/HelpFormatter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/IniFileConfiguration.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/IntValidator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/JSONConfiguration.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/LayeredConfiguration.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/LoggingConfigurator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/LoggingSubsystem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/MapConfiguration.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/Option.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/OptionCallback.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/OptionException.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/OptionProcessor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/OptionSet.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/PropertyFileConfiguration.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/RegExpValidator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/ServerApplication.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/Subsystem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/SystemConfiguration.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/Timer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/TimerTask.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/TimerTaskAdapter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/Units.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/Util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/Validator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/WinRegistryConfiguration.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/WinRegistryKey.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/WinService.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/Poco/Util/XMLConfiguration.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/gtest-death-test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/gtest-message.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/gtest-param-test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/gtest-param-test.h.pump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/gtest-printers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/gtest-spi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/gtest-test-part.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/gtest-typed-test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/gtest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/gtest_pred_impl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/gtest_prod.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/internal/gtest-death-test-internal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/internal/gtest-filepath.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/internal/gtest-internal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/internal/gtest-linked_ptr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/internal/gtest-param-util-generated.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/internal/gtest-param-util-generated.h.pump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/internal/gtest-param-util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/internal/gtest-port.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/internal/gtest-string.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/internal/gtest-tuple.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/internal/gtest-tuple.h.pump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/internal/gtest-type-util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/gtest/internal/gtest-type-util.h.pump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/__DECC_INCLUDE_EPILOGUE.H" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/__DECC_INCLUDE_PROLOGUE.H" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/aes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/applink.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/asn1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/asn1_mac.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/asn1err.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/asn1t.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/async.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/asyncerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/bio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/bioerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/blowfish.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/bn.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/bnerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/buffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/buffererr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/camellia.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/cast.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/cmac.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/cms.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/cmserr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/comp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/comperr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/conf_api.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/conferr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/crypto.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/cryptoerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/ct.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/cterr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/des.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/dh.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/dherr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/dsa.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/dsaerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/dtls1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/e_os2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/ebcdic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/ec.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/ecdh.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/ecdsa.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/ecerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/engine.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/engineerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/err.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/evp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/evperr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/hmac.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/idea.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/kdf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/kdferr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/lhash.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/md2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/md4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/md5.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/mdc2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/modes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/obj_mac.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/objects.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/objectserr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/ocsp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/ocsperr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/opensslconf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/opensslv.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/ossl_typ.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/pem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/pem2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/pemerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/pkcs12.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/pkcs12err.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/pkcs7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/pkcs7err.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/rand.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/rand_drbg.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/randerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/rc2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/rc4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/rc5.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/ripemd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/rsa.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/rsaerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/safestack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/seed.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/sha.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/srp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/srtp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/ssl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/ssl2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/ssl3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/sslerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/stack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/store.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/storeerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/symhacks.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/tls1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/ts.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/tserr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/txt_db.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/ui.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/uierr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/whrlpool.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/x509.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/x509_vfy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/x509err.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/x509v3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/include/openssl/x509v3err.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Android/aarch64/openssl/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Android/aarch64/poco/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Android/armv7-a/openssl/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Android/armv7-a/poco/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/gtest/gtest.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/gtest/gtest_main.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/openssl/libcrypto-1_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/openssl/libcrypto.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/openssl/libssl-1_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/openssl/libssl.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/openssl/openssl.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/poco/PocoCrypto.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/poco/PocoCrypto.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/poco/PocoData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/poco/PocoDataODBC.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/poco/PocoDataSQLite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/poco/PocoEncodings.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/poco/PocoFoundation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/poco/PocoFoundation.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/poco/PocoJSON.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/poco/PocoJSON.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/poco/PocoMongoDB.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/poco/PocoNet.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/poco/PocoNet.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/poco/PocoNetSSL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/poco/PocoNetSSL.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/poco/PocoRedis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/poco/PocoUtil.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/poco/PocoUtil.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/poco/PocoXML.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/Win32/poco/PocoXML.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/iOS/aarch64/openssl/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/iOS/aarch64/poco/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/linux/gtest/libgtest.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/linux/gtest/libgtest_main.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/linux/poco/libPocoCrypto.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/linux/poco/libPocoFoundation.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/linux/poco/libPocoJSON.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/linux/poco/libPocoNet.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/linux/poco/libPocoNetSSL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/linux/poco/libPocoUtil.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/linux/poco/libPocoXML.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/macOS/poco/libPocoCrypto.64.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/macOS/poco/libPocoCrypto.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/macOS/poco/libPocoFoundation.64.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/macOS/poco/libPocoFoundation.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/macOS/poco/libPocoJSON.64.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/macOS/poco/libPocoJSON.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/macOS/poco/libPocoNet.64.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/macOS/poco/libPocoNet.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/macOS/poco/libPocoNetSSL.64.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/macOS/poco/libPocoNetSSL.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/macOS/poco/libPocoUtil.64.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/macOS/poco/libPocoUtil.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/macOS/poco/libPocoXML.64.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/macOS/poco/libPocoXML.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/gtest/gtest.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/gtest/gtest_main.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/openssl/libcrypto-1_1-x64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/openssl/libcrypto.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/openssl/libssl-1_1-x64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/openssl/libssl.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/openssl/openssl.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/poco/PocoCrypto.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/poco/PocoCrypto.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/poco/PocoFoundation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/poco/PocoFoundation.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/poco/PocoJSON.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/poco/PocoJSON.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/poco/PocoNet.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/poco/PocoNet.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/poco/PocoNetSSL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/poco/PocoNetSSL.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/poco/PocoUtil.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/poco/PocoUtil.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/poco/PocoXML.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third/cos/third_party/lib/x64/poco/PocoXML.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/QStringList.8FEC6BF2E5D17EA7.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/QStringList.8FEC6BF2E5D17EA7.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/daoclouds.h.54672A4DF4093F6B.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/daoclouds.h.54672A4DF4093F6B.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/daocloudsmock.cpp.38E9C6A6A3624A13.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/daocloudsmock.cpp.38E9C6A6A3624A13.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/daocloudsmock.h.A06F81A64424E53D.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/daocloudsmock.h.A06F81A64424E53D.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/daologininfo.cpp.C312F7862205047F.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/daologininfo.cpp.C312F7862205047F.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/daologininfosqlite.cpp.4C672F970119C59A.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/daologininfosqlite.cpp.4C672F970119C59A.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/exception.h.066F21DA7474E6AB.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/exception.h.066F21DA7474E6AB.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/filehelper.cpp.5A791DC8AA56A069.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/filehelper.cpp.5A791DC8AA56A069.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/filehelper.h.00346E24D5255559.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/filehelper.h.00346E24D5255559.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/global.h.9AA50C5BE6147C5D.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/global.h.9AA50C5BE6147C5D.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/logindialog.cpp.9526375BBEC9A372.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/logindialog.cpp.9526375BBEC9A372.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/logindialog.h.35E028F0DE22101C.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/logindialog.h.35E028F0DE22101C.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/main.cpp.68633D41C4A82588.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/main.cpp.68633D41C4A82588.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/mancloud.cpp.ACC0741AD95B30DB.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/mancloud.cpp.ACC0741AD95B30DB.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/mancloud.h.E7D6B954FF3EC048.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/mancloud.h.E7D6B954FF3EC048.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/manplugin.cpp.225563EF315E2120.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/manplugin.cpp.225563EF315E2120.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/manplugin.h.4B59091EADA06648.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/manplugin.h.4B59091EADA06648.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qatomic.h.6F2FB3B043CF8A30.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qatomic.h.6F2FB3B043CF8A30.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qbytearray.h.1E7B46CE640EBF07.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qbytearray.h.1E7B46CE640EBF07.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qbytearraylist.h.D3B6925B825F7127.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qbytearraylist.h.D3B6925B825F7127.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qflags.h.7F49266A7173201B.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qflags.h.7F49266A7173201B.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qglobal.h.2070D01641AC94B6.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qglobal.h.2070D01641AC94B6.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qhash.h.BB42D51BBC29252C.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qhash.h.BB42D51BBC29252C.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qiodevice.h.63A056C00934A6C4.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qiodevice.h.63A056C00934A6C4.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qiterator.h.D7B79BD9826CE781.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qiterator.h.D7B79BD9826CE781.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qmap.h.E194C6E4B23EE4FB.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qmap.h.E194C6E4B23EE4FB.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qmetatype.h.B7705DC7D44C5569.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qmetatype.h.B7705DC7D44C5569.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qobject.h.5B8F0E4BDF6892AB.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qobject.h.5B8F0E4BDF6892AB.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qobjectdefs.h.7E3A81480474594E.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qobjectdefs.h.7E3A81480474594E.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qobjectdefs_impl.h.A8DD85E78D0E33CB.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qobjectdefs_impl.h.A8DD85E78D0E33CB.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qshareddata.h.BD30C324919D636D.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qshareddata.h.BD30C324919D636D.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qstringlist.h.40E6E820364858C0.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qstringlist.h.40E6E820364858C0.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qtypeinfo.h.D95B31621619B1E8.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/qtypeinfo.h.D95B31621619B1E8.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/type_traits.F6A9F7FAF1CA885D.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/type_traits.F6A9F7FAF1CA885D.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/version.h.08F379F3CF92A261.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/version.h.08F379F3CF92A261.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/versioncmd.cpp.BEF6D927A488B94B.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/versioncmd.cpp.BEF6D927A488B94B.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/versioncmd.h.1DC2394FA7390BE3.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/versioncmd.h.1DC2394FA7390BE3.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/versionjson.cpp.62DC438AA756C556.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/versionjson.cpp.62DC438AA756C556.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/versionjson.h.B5821ED41678E5D8.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/.cache/clangd/index/versionjson.h.B5821ED41678E5D8.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/.qtc_clangd/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/Makefile.Debug" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/Makefile.Debug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/Makefile.Release" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/Makefile.Release" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/cloudObjectStorageBrowsers.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/daocloudsmock.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/daocloudsmock.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/daologininfo.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/daologininfo.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/daologininfosqlite.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/daologininfosqlite.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/filehelper.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/filehelper.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/logindialog.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/logindialog.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/mancloud.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/mancloud.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/manplugin.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/manplugin.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/moc_logindialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/moc_logindialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/moc_logindialog.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/moc_logindialog.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/moc_mancloud.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/moc_mancloud.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/moc_manplugin.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/moc_manplugin.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/qrc_resource.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/qrc_resource.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/qrc_resource.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/qrc_resource.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/uimain.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/debug/uimain.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/object_script.cloudObjectStorageBrowsers.Debug" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/object_script.cloudObjectStorageBrowsers.Debug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/object_script.cloudObjectStorageBrowsers.Release" beforeDir="false" afterPath="$PROJECT_DIR$/build/Qt5_15_2_mingw_64-Debug/object_script.cloudObjectStorageBrowsers.Release" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudObjectStorageBrowsers.pro" beforeDir="false" afterPath="$PROJECT_DIR$/cloudObjectStorageBrowsers.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudObjectStorageBrowsers.pro.user" beforeDir="false" afterPath="$PROJECT_DIR$/cloudObjectStorageBrowsers.pro.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource.qrc" beforeDir="false" afterPath="$PROJECT_DIR$/resource.qrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bend/dao/clouds/daoclouds.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/bend/dao/clouds/daoclouds.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bend/dao/clouds/daocloudsmock.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/bend/dao/clouds/daocloudsmock.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bend/dao/clouds/daocloudsmock.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/bend/dao/clouds/daocloudsmock.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bend/dao/dbs/daologininfo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/bend/dao/dbs/daologininfo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bend/dao/dbs/daologininfosqlite.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/bend/dao/dbs/daologininfosqlite.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bend/man/mancloud.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/bend/man/mancloud.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bend/man/mancloud.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/bend/man/mancloud.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/global.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fend/uilogin/logindialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/fend/uilogin/logindialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fend/uilogin/logindialog.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/fend/uilogin/logindialog.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fend/uimain/bucketswidget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/fend/uimain/bucketswidget.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fend/uimain/bucketswidget.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/fend/uimain/bucketswidget.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fend/uimain/objectswidget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/fend/uimain/objectswidget.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helper/filehelper.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/filehelper.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helper/filehelper.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/filehelper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugins/manplugin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugins/manplugin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugins/manplugin.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugins/manplugin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/testing/buckets1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/testing/buckets2.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,39 +855,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "CMake 应用程序.cloudObjectStorageBrowsers.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/CppProjects/cloudObjectStorageBrowsers",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.language",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;CMake 应用程序.cloudObjectStorageBrowsers.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/CppProjects/cloudObjectStorageBrowsers&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\CppProjects\cloudObjectStorageBrowsers\src\middle" />
       <recent name="C:\CppProjects\cloudObjectStorageBrowsers\src\fend\uiLogin" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -163,6 +895,8 @@
       <workItem from="1719749065332" duration="9048000" />
       <workItem from="1720701148437" duration="1917000" />
       <workItem from="1720842473079" duration="3690000" />
+      <workItem from="1721030170315" duration="846000" />
+      <workItem from="1721266962668" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="设计uimain、logindialog，设定主要的对话框">
       <option name="closed" value="true" />
@@ -180,7 +914,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720183518047</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加版本控制">
+      <option name="closed" value="true" />
+      <created>1721031570094</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721031570094</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +949,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="设计uimain、logindialog，设定主要的对话框" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计uimain、logindialog，设定主要的对话框" />
+    <MESSAGE value="添加版本控制" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加版本控制" />
   </component>
 </project>

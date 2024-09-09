@@ -1,12 +1,17 @@
 ﻿#include "logindialog.h"
 #include "src/bend/man/mandb.h"
 #include "ui_logindialog.h"
+#include "src/middle/manglobal.h"
+#include "src/middle/signals/mansignals.h"
+#include "src/config/apis.h"
+#include "src/bend/gateway.h"
 
 #include <QMessageBox>
 #include <QMouseEvent>
 #include <QDebug>
 #include <QKeyEvent>
 #include <QCompleter>
+#include <QJsonObject>
 
 LoginDialog::LoginDialog(QWidget *parent)
     : QDialog(parent)
@@ -25,6 +30,12 @@ LoginDialog::LoginDialog(QWidget *parent)
     ui->labelRemark->setProperty("style", "h4");
     ui->btnClose->setProperty("style", "h4");
     ui->btnLogin->setProperty("style", "h4");
+
+    connect(MG->mSignal, &ManSignals::loginSuccess, this, &LoginDialog::onLoginSucceed);
+    connect(MG->mSignal, &ManSignals::unLogin, this, &LoginDialog::show);
+    connect(MG->mSignal, &ManSignals::error, this, &LoginDialog::onLoginError);
+    updateLoginInfo();
+
 }
 
 LoginDialog::~LoginDialog()
@@ -35,7 +46,7 @@ LoginDialog::~LoginDialog()
 
 void LoginDialog::updateLoginInfo()
 {
-    QStringList words = MDB->loginNameList();
+    QStringList words = MG->mDb->loginNameList();
     QCompleter* completer = new QCompleter(words);
     ui->lineLoginName->setCompleter(completer);
 
@@ -92,39 +103,47 @@ bool LoginDialog::eventFilter(QObject *watched, QEvent *event)
 void LoginDialog::on_btnLogin_clicked()
 {
     // 登录信息验证
-    if (ui->lineSecretId->text().trimmed() == "zhangsan"
-        && ui->lineSecretKey->text().trimmed() == "123")
-    {
-        accept();
-        if (ui->checkSaveSection->isChecked())
-        {
-            //保存登录信息
-            MDB->saveLoginInfo(
-                ui->lineLoginName->text(),
-                ui->lineSecretId->text(),
-                ui->lineSecretKey->text(),
-                ui->lineRemark->text()
-            );
-        }
-        else
-        {
-            //删除登录信息
-            MDB->removeLoginInfo(ui->lineSecretId->text());
-        }
-        updateLoginInfo();
-    }
-    else
-    {
-        QMessageBox::warning(
-            this, QString::fromUtf8("登录失败"),
-            QString::fromUtf8("请检查SecretId或SecretKey是否正确"));
-    }
-//    accept();
+    QJsonObject params;
+    params["secretId"] = ui->lineSecretId->text().trimmed();
+    params["secretKey"] = ui->lineSecretKey->text().trimmed();
+    MG->mGate->send(API::LOGIN::NORMAL, params);
 }
 
 
 void LoginDialog::on_btnClose_clicked()
 {
     reject();
+}
+
+void LoginDialog::onLoginSucceed()
+{
+    accept();
+    if (ui->checkSaveSection->isChecked())
+    {
+        //保存登录信息
+        MG->mDb->saveLoginInfo(
+            ui->lineLoginName->text(),
+            ui->lineSecretId->text(),
+            ui->lineSecretKey->text(),
+            ui->lineRemark->text()
+            );
+        updateLoginInfo();
+    }
+    else
+    {
+        //删除登录信息
+        MG->mDb->removeLoginInfo(ui->lineSecretId->text());
+    }
+
+}
+
+void LoginDialog::onLoginError(int api, const QString &msg)
+{
+    if (api != API::LOGIN::NORMAL)
+        return;
+    QMessageBox::warning(
+        this, QString::fromLocal8Bit("登录失败"),
+        QString::fromLocal8Bit("登录失败：%1").arg(msg));
+
 }
 
