@@ -28,3 +28,12 @@
 ```bash
 git clone https://github.com/HappyLee11/cloudObjectStorageBrowsers.git
 cd cloudObjectStorageBrowsers
+```
+
+### 编译与运行
+1、使用 Qt Creator 打开项目文件 cloudObjectStorageBrowsers.pro。
+2、配置项目，选择编译器（如 GCC 或 MSVC）和目标平台。
+3、编译项目并运行。
+
+
+
