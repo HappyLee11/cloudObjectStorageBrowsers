@@ -20,8 +20,8 @@
 
 ### 环境要求
 - **操作系统**：Windows/Linux/MacOS
-- **开发工具**：Qt 5.x 或更高版本
-- **数据库**：MySQL 5.x 或更高版本
+- **开发工具**：Qt 5.15.2
+- **数据库**：MySQL 8.0 或更高版本
 
 ### 克隆项目
 首先，克隆项目仓库到本地：
@@ -31,9 +31,9 @@ cd cloudObjectStorageBrowsers
 ```
 
 ### 编译与运行
-1、使用 Qt Creator 打开项目文件 cloudObjectStorageBrowsers.pro。
-2、配置项目，选择编译器（如 GCC 或 MSVC）和目标平台。
-3、编译项目并运行。
+- 使用 Qt Creator 打开项目文件 cloudObjectStorageBrowsers.pro。
+- 配置项目，选择编译器（如 GCC 或 MSVC）和目标平台。
+- 编译项目并运行。
 
 
 
