@@ -36,4 +36,22 @@ cd cloudObjectStorageBrowsers
 - 编译项目并运行。
 
 
+## 功能界面
+### 登录云存储账号
+![登录云存储账号](https://github.com/user-attachments/assets/30ebe41d-1244-416e-bfca-466986e587d1)
+### 创建存储桶
+![创建存储桶](https://github.com/user-attachments/assets/d1288ad3-669b-4031-abfa-4ec67e196963)
+### 删除存储桶
+![删除存储桶1](https://github.com/user-attachments/assets/7dae4639-c9c3-4118-a436-c1b447874125)
+### 查看对象
+![查看对象](https://github.com/user-attachments/assets/db0bd7eb-5de1-44f5-8436-99373ff37445)
+### 上传对象
+![上传对象](https://github.com/user-attachments/assets/4b0bc27a-5734-4bc5-8b65-b18464ec4dab)
+### 下载对象
+![下载对象](https://github.com/user-attachments/assets/68eafc7c-c236-43fa-96b7-55027c922561)
+### 查看传输队列
+![查看传输列表](https://github.com/user-attachments/assets/ffeb593a-aa7c-410c-a2e5-e2fce2be5cf4)
+
+
+
 
